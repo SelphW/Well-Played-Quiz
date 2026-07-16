@@ -1,0 +1,12 @@
+{
+  "quizzes": [
+    {
+      "name": "Midnight Falls – Mythic L’ura",
+      "file": "Well_Played_Midnight_Falls_Lura.json"
+    },
+    {
+      "name": "Mythic Belo’ren – Post Nerf",
+      "file": "Well_Played_Mythic_Beloren_Post_Nerf.json"
+    }
+  ]
+}
