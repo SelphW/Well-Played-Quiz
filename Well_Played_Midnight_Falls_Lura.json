@@ -1,0 +1,626 @@
+{
+  "schemaVersion": 3,
+  "branding": {
+    "guildName": "Well Played",
+    "appTitle": "Well Played Raid-Quiz",
+    "appSubtitle": "Gildenquiz für Raidguides",
+    "headerLogoText": "WP",
+    "bannerTitle": "Well Played",
+    "bannerSubtitle": "Guild Quiz",
+    "bannerGuideFallback": "Wähle einen Guide per JSON-Datei",
+    "accentColor": "#d6a24a",
+    "accentColor2": "#36b5ff",
+    "accentColor3": "#7b4dff"
+  },
+  "quiz": {
+    "guideName": "Midnight Falls – Mythic L’ura Guide",
+    "pageTitle": "Midnight Falls – Mythic L’ura Quiz",
+    "headerTitle": "Midnight Falls – Mythic L’ura",
+    "headerSubtitle": "Interaktives Mechanik-Quiz",
+    "startTitle": "Hast du L’ura verstanden?",
+    "description": "50 überarbeitete Fragen zu Phase 1, Intermission, Phase 2, dem Übergang, Phase 3 und Phase 4.",
+    "icon": "🌌"
+  },
+  "questions": [
+    {
+      "category": "Phase 1",
+      "question": "Wann solltest du deinen zugewiesenen Interrupt auf ein Terminate-Add benutzen?",
+      "options": [
+        "Erst wenn deine Anzeige grün wird und du wirklich an der Reihe bist",
+        "Sofort beim Beginn des Casts",
+        "Sobald die Anzeige gelb wird",
+        "Erst nachdem der Cast fast beendet ist"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Die Adds sind zu Beginn des Casts kurz gegen Interrupts geschützt. Grün bedeutet: Jetzt bist du dran und der Kick kann funktionieren."
+    },
+    {
+      "category": "Phase 1",
+      "question": "Was ist die typische Folge eines verpassten Terminate-Interrupts?",
+      "options": [
+        "Nur das Add wird kurz stärker",
+        "Ein großer Teil des Raids stirbt und der Versuch ist meist beendet",
+        "Der zuständige Spieler erhält lediglich einen Slow",
+        "L’ura überspringt das nächste Memory Game"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Terminate verursacht bei einem verpassten Kick extrem hohen Schaden. Einzelne Tanks können mit Glück überleben, der Pull ist normalerweise trotzdem vorbei."
+    },
+    {
+      "category": "Phase 1",
+      "question": "Wann erscheinen die angreifbaren Kristalle in Phase 1?",
+      "options": [
+        "Direkt beim Pull",
+        "Nach jedem Quasar",
+        "Nachdem die Terminate-Sequenz erfolgreich unterbrochen wurde",
+        "Erst nach dem zweiten Memory Game"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Zuerst muss die Interrupt-Sequenz sauber beendet werden. Anschließend erscheinen die Kristalle."
+    },
+    {
+      "category": "Phase 1",
+      "question": "Warum sollten nicht zugewiesene Spieler nicht auf einem aufnehmbaren Kristall stehen?",
+      "options": [
+        "Weil der Kristall ihren Schaden reflektiert",
+        "Weil dadurch sofort eine Glaive erscheint",
+        "Weil das Memory Game sonst unsichtbar wird",
+        "Weil sie ihn versehentlich aufnehmen und damit den geplanten Ablauf zerstören können"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Kristalle werden beim Darüberlaufen aufgenommen. Ein zufälliger Träger kann die gesamte folgende Positionierung ruinieren."
+    },
+    {
+      "category": "Phase 1",
+      "question": "Welche Zuordnung der fünf Memory-Positionen ist korrekt?",
+      "options": [
+        "Oben sieht 1 und 4, Rot sieht 2 und 5, Blau sieht 3",
+        "Oben sieht 1 und 2, Rot sieht 3, Blau sieht 4 und 5",
+        "Oben sieht alle fünf, Rot und Blau bestätigen nur",
+        "Rot sieht 1 und 4, Blau sieht 2 und 5, Oben sieht 3"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Die Symbole sind auf die drei Ebenen verteilt: normale obere Phase 1/4, rote Phase 2/5 und blaue Phase 3."
+    },
+    {
+      "category": "Phase 1",
+      "question": "Muss ein Kristallträger seinen Kristall für das Phase-1-Memory-Game ablegen?",
+      "options": [
+        "Ja, immer vor dem ersten Symbol",
+        "Nein, er kann den Kristall behalten und normal zu seiner Position gehen",
+        "Nur wenn er in die rote Phase geschickt wird",
+        "Nur wenn gleichzeitig eine Glaive aktiv ist"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Nach der Änderung entstehen durch das Memory Game keine Tears mehr, nur weil der Spieler einen Kristall hält."
+    },
+    {
+      "category": "Phase 1",
+      "question": "Welche Mechanik folgt nach jedem Memory Game?",
+      "options": [
+        "Eine neue Terminate-Sequenz",
+        "Der Übergang in die Intermission",
+        "Quasar, also der große Laser",
+        "Ein sofortiger Knockback"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Nach jedem Memory Game muss der Raid für Quasar bereit sein und sich hinter dem Boss sammeln."
+    },
+    {
+      "category": "Phase 1",
+      "question": "Wie wird Quasar grundsätzlich gespielt?",
+      "options": [
+        "Vor L’ura verteilen und den Laser kreuzen",
+        "In der Mitte stehen bleiben und Defensives drücken",
+        "Sofort zu den Kristallen am Rand laufen",
+        "Hinter L’ura sammeln, auf die sichere Seite gehen und dem Laser folgen"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Der Raid stapelt zunächst hinter dem Boss. Sobald die Richtung erkennbar ist, bewegt er sich seitlich und folgt der sicheren Zone."
+    },
+    {
+      "category": "Phase 1",
+      "question": "Wie sollte L’ura wegen der Glaives möglichst positioniert werden?",
+      "options": [
+        "Leicht versetzt und nicht zu dicht am Pfeiler",
+        "Exakt mittig direkt am Pfeiler",
+        "Mit der Front dauerhaft in den Raid",
+        "So weit wie möglich vom Raumzentrum entfernt"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Eine leicht versetzte Bossposition verringert ungünstige Rückpraller. Ganz verhindern lassen sie sich trotzdem nicht."
+    },
+    {
+      "category": "Phase 1",
+      "question": "Was machst du, wenn eine Glaive unerwartet in den Raid zurückprallt?",
+      "options": [
+        "Du bleibst stehen, weil der Rückweg harmlos ist",
+        "Du weichst dem Rückprall aktiv aus",
+        "Du läufst absichtlich in die Glaive, damit sie verschwindet",
+        "Du wechselst sofort deine Memory-Ebene"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Zurückprallende Glaives bleiben gefährlich. Der Tank sollte sie ansagen, aber jeder Spieler muss selbst reagieren."
+    },
+    {
+      "category": "Phase 1",
+      "question": "Wie wird die wiederholte Fünf-Treffer-Tankmechanik gespielt?",
+      "options": [
+        "Ohne Cooldown, weil nur der letzte Treffer Schaden verursacht",
+        "Durch dauerhaftes Kiten von L’ura",
+        "Mit einem defensiven Cooldown, auch wenn sie während Bewegung kommt",
+        "Indem der andere Tank jeden einzelnen Treffer abspottet"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Die Tankmechanik besteht aus fünf wiederholten Treffern und bleibt über den Kampf hinweg ähnlich. Sie darf auch während Laufphasen nicht unterschätzt werden."
+    },
+    {
+      "category": "Intermission",
+      "question": "Wovon hängt die räumliche Orientierung der Intermission ab?",
+      "options": [
+        "Von der Farbe des zuletzt aufgenommenen Kristalls",
+        "Von der Richtung der letzten Glaive",
+        "Von der Anzahl lebender Spieler",
+        "Davon, wo L’ura am Ende von Phase 1 steht"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Die Endposition von L’ura bestimmt, wie der Positionsplan im Raum gelesen werden muss."
+    },
+    {
+      "category": "Intermission",
+      "question": "Was passiert, wenn du von einem fremden Star Splinter getroffen wirst?",
+      "options": [
+        "Du erzeugst Tears, die anschließend zuverlässig aufgefangen werden müssen",
+        "Du verlierst nur kurz Bewegungsgeschwindigkeit",
+        "Dein Kristall wird automatisch zerstört",
+        "Du wechselst mit dem getroffenen Spieler die Position"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fremde Star-Splinter-Treffer erzeugen Tears. Werden diese nicht gefangen, führt das sehr schnell zum Wipe."
+    },
+    {
+      "category": "Intermission",
+      "question": "Was muss ein Kristallträger tun, wenn er selbst Star Splinter erhält?",
+      "options": [
+        "Den Kristall behalten und auf einem Mitspieler stapeln",
+        "Den Kristall für die Ablage der Mechanik kontrolliert fallen lassen und danach wieder aufnehmen",
+        "Den Splinter direkt in einen Beam legen",
+        "Den Kristall dauerhaft liegen lassen"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Der Kristall darf bei der Ablage nicht einfach weitergetragen werden. Danach muss der eigene Kristall wieder aufgenommen werden."
+    },
+    {
+      "category": "Intermission",
+      "question": "Du hast Star Splinter und ein Beam-Spawn steht unmittelbar bevor. Was ist richtig?",
+      "options": [
+        "Den Splinter sofort an Ort und Stelle ablegen",
+        "In die nächste Gruppe laufen und dort ablegen",
+        "Erst den Beam-Spawn abwarten, ausweichen und danach den Splinter sicher ablegen",
+        "Den kommenden Beam mit dem Kristall blocken"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Wer zu früh ablegt, kann sich durch den anschließend spawnenden Beam selbst einschließen. Erst sehen, dann bewegen, dann ablegen."
+    },
+    {
+      "category": "Intermission",
+      "question": "Wie groß sollte die Bewegung beim Ablegen eines Blaze normalerweise sein?",
+      "options": [
+        "Ein kompletter Sprint quer durch den Raum",
+        "Gar keine Bewegung vom Kristall weg",
+        "Immer bis zur gegenüberliegenden Raumseite",
+        "Nur klein und kontrolliert, damit andere Spieler nicht gefährdet werden"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Blaze ist relativ verzeihend. Große Laufwege schaffen eher neue Probleme, als dass sie etwas lösen."
+    },
+    {
+      "category": "Intermission",
+      "question": "Welche einfache Absprache hilft Spielern, die ihre Blazes nahe beieinander ablegen?",
+      "options": [
+        "Einer bewegt sich vorwärts, der andere rückwärts",
+        "Beide laufen in dieselbe Richtung",
+        "Beide bleiben auf ihren Kristallen stehen",
+        "Einer folgt immer exakt dem anderen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Eine klare Bewegungsrichtung verhindert, dass sich benachbarte Spieler gegenseitig treffen oder ihre Kristalle kreuzen."
+    },
+    {
+      "category": "Intermission",
+      "question": "Was hat in der Intermission Vorrang?",
+      "options": [
+        "Maximaler Boss-DPS unabhängig von der Position",
+        "Sicheres Spielen, auch wenn dadurch kaum Schaden auf den Boss entsteht",
+        "Möglichst große Laufwege, um Platz zu schaffen",
+        "Alle Mechaniken möglichst nah beieinander abzulegen"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Der Guide betont ausdrücklich: Schaden ist hier zweitrangig. Wer sicher spielt, macht die Phase stabil."
+    },
+    {
+      "category": "Phase 2",
+      "question": "Welche Grundabfolge wiederholt sich in Phase 2?",
+      "options": [
+        "Memory Game, Glaives und anschließend Quasar",
+        "Knockback, Terminate und Kristalle zerstören",
+        "Linien soaken, Kreise verteilen und danach die hereingezogenen Cores samt Linien dodgen",
+        "Blazes, Tankfrontal und danach Memory Game"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Phase 2 besitzt eine feste Kadenz: Linien, Kreise, Core-Dodge. Diese Sequenz wird mehrfach wiederholt."
+    },
+    {
+      "category": "Phase 2",
+      "question": "Wie oft läuft die normale Linien-Kreis-Core-Abfolge vor dem Übergangs-Knockback?",
+      "options": [
+        "Einmal",
+        "Zweimal",
+        "Fünfmal",
+        "Dreimal"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Nach drei normalen Runden folgt eine vierte Kreisverteilung mit besonderer Aufstellung für den Übergang in Phase 3."
+    },
+    {
+      "category": "Phase 2",
+      "question": "Warum können Kristallträger genutzt werden, um die Linien zuverlässig auf bestimmte Gruppen zu lenken?",
+      "options": [
+        "Weil Spieler mit Kristall selbst nicht als Ziel einer Linie gewählt werden",
+        "Weil ihre Kristalle alle Linien automatisch anziehen",
+        "Weil sie gegen die Linien immun sind",
+        "Weil sie die Linien nach dem Spawn verschieben können"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Durch die Verteilung der Kristallträger lässt sich beeinflussen, auf welchen verfügbaren Spielern die Linien entstehen."
+    },
+    {
+      "category": "Phase 2",
+      "question": "Was muss bei einem Linien-Soak grundsätzlich stimmen?",
+      "options": [
+        "Nur ein Spieler steht in der Linie",
+        "Die vorgesehene Gruppe steht vollständig in der Linie, damit der richtige Planet getroffen wird",
+        "Kristallträger bleiben mit Kristall in der Linie",
+        "Die Linie wird absichtlich am Planeten vorbeigelenkt"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Die Linie muss von der vollständigen Gruppe korrekt ausgerichtet und gesoakt werden, damit sie den vorgesehenen Planeten trifft."
+    },
+    {
+      "category": "Phase 2",
+      "question": "Welche Positionsreihenfolge gilt für die drei Linienrunden relativ zur Markierung?",
+      "options": [
+        "Rechts, links, Mitte",
+        "Mitte, rechts, links",
+        "Links von der Markierung, auf der Markierung, rechts von der Markierung",
+        "Immer exakt auf der Markierung"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Die leicht merkbare Reihenfolge lautet links – Mitte – rechts."
+    },
+    {
+      "category": "Phase 2",
+      "question": "Was passiert unmittelbar nach dem Linien-Soak?",
+      "options": [
+        "Alle Spieler werden an den äußeren Rand geschleudert",
+        "Es beginnt sofort ein Memory Game",
+        "Die Kristalle werden automatisch zerstört",
+        "Die Spieler werden zur Mitte gezogen und müssen anschließend ihre Kreispositionen einnehmen"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Nach der Linie folgt der Pull zur Mitte. Danach werden die persönlichen beziehungsweise zugewiesenen Kreise gespielt."
+    },
+    {
+      "category": "Phase 2",
+      "question": "Worauf musst du nach dem Einschlag der Kreise achten?",
+      "options": [
+        "Auf die hereingezogenen Cores und ihre Linien",
+        "Auf eine neue Terminate-Rotation",
+        "Auf zurückprallende Glaives",
+        "Auf den sofortigen Dark-Archangel-Cast"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Nach den Kreisen werden Cores beziehungsweise Planeten hereingezogen. Ihre Linien müssen gedodged werden, bevor die Sequenz erneut beginnt."
+    },
+    {
+      "category": "Phase 2",
+      "question": "Was passiert, wenn ein Kristallträger seinen Kristall während einer Linie oder eines Kreises behält?",
+      "options": [
+        "Der Kristall wird verstärkt",
+        "Es entstehen Tears",
+        "Der Träger erhält nur einen kurzen Slow",
+        "Die Mechanik verursacht keinen Schaden"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kristallträger müssen vor beiden Mechaniken rechtzeitig ablegen. Mit gehaltenem Kristall entstehen zusätzliche Tears."
+    },
+    {
+      "category": "Phase 2",
+      "question": "Welche Reihenfolge gilt für einen Kristallträger bei der Linienmechanik?",
+      "options": [
+        "Linie mit Kristall soaken und danach ablegen",
+        "Kristall dauerhaft in der Mitte lassen",
+        "Auf den Timer warten, Kristall ablegen, Linie soaken und Kristall wieder aufnehmen",
+        "Erst nach dem Soak zum Kristall laufen und ihn zerstören"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Der Drop muss spät genug erfolgen, damit niemand den Kristall versehentlich aufnimmt, aber rechtzeitig vor dem Linien-Soak."
+    },
+    {
+      "category": "Phase 2",
+      "question": "Welche Reihenfolge gilt für einen Kristallträger bei der Kreismechanik?",
+      "options": [
+        "Sofort beim Pull aus der Mitte laufen und den Kristall behalten",
+        "Kristall ablegen und bis zum Phasenende liegen lassen",
+        "Mit Kristall auf dem Kreis stehen und anschließend tauschen",
+        "In die Mitte ziehen lassen, auf den Timer warten, Kristall ablegen, zum Kreis laufen und danach wieder aufnehmen"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Die Träger warten gemeinsam auf den Drop-Timer, verteilen sich auf ihre Kreise und holen danach ihre Kristalle zurück."
+    },
+    {
+      "category": "Phase 2",
+      "question": "Warum sollten die Kristallträger ihre Kristalle möglichst gleichzeitig auf den Timer ablegen?",
+      "options": [
+        "Damit niemand beim Loslaufen versehentlich einen fremden Kristall aufnimmt",
+        "Damit die Linien mehr Schaden verursachen",
+        "Damit L’ura kurz betäubt wird",
+        "Damit die Cores langsamer hereingezogen werden"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ein gemeinsamer Drop hält die Positionen sauber und verhindert zufällige Kristallwechsel."
+    },
+    {
+      "category": "Übergang zu Phase 3",
+      "question": "Was ist bei der vierten Kreisposition anders als bei den ersten drei?",
+      "options": [
+        "Sie verursacht keinen Schaden",
+        "Sie ist bereits für den Knockback in Phase 3 ausgerichtet",
+        "Sie wird ohne Gruppe gespielt",
+        "Dort dürfen keine Kristallträger stehen"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Die vierte Kreisverteilung ist keine normale Wiederholung, sondern die vorbereitete Knockback-Aufstellung für Phase 3."
+    },
+    {
+      "category": "Übergang zu Phase 3",
+      "question": "Wann solltest du dich zur besonderen vierten Kreisposition bewegen?",
+      "options": [
+        "Erst nachdem der Knockback bereits begonnen hat",
+        "Sofort nach der ersten Linienrunde",
+        "Frühzeitig, aber ohne in die hereingezogenen Cores zu laufen",
+        "Gar nicht; die Position wird automatisch erreicht"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Einige Spieler haben einen langen Weg. Früh loszulaufen verhindert Panik, blind durch die Cores zu laufen wäre allerdings die schlechtere Idee."
+    },
+    {
+      "category": "Übergang zu Phase 3",
+      "question": "Soll ein Kristallträger seinen Kristall vor dem finalen Knockback ablegen?",
+      "options": [
+        "Ja, sofort beim Beginn des Casts",
+        "Nur wenn der Träger vorne steht",
+        "Nur wenn gleichzeitig ein Beam aktiv ist",
+        "Nein, der Kristall wird für den Knockback bewusst gehalten"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Beim finalen Knockback sollen Kristall und Tears gezielt von der dahinterstehenden Gruppe aufgefangen werden."
+    },
+    {
+      "category": "Übergang zu Phase 3",
+      "question": "Wie ist eine typische Dreiergruppe für den Knockback aufgebaut?",
+      "options": [
+        "Kristallträger vorne, zwei Spieler dahinter",
+        "Alle drei exakt übereinander",
+        "Zwei Kristallträger vorne, ein Spieler dahinter",
+        "Alle drei nebeneinander auf einer Linie"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Die dreieckige Aufstellung sorgt dafür, dass nach dem Knockback sowohl der Kristall als auch die Tears kontrolliert gefangen werden können."
+    },
+    {
+      "category": "Übergang zu Phase 3",
+      "question": "Wie werden Kristall und Tears nach dem Knockback innerhalb der Gruppe verteilt?",
+      "options": [
+        "Alle drei versuchen denselben Kristall zu nehmen",
+        "Eine Person nimmt den Kristall, die beiden anderen teilen die Tears nach einer festen Seite auf",
+        "Der Kristall bleibt liegen und nur die Tears werden gefangen",
+        "Jeder läuft sofort allein zu Phase 3"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Eine einfache Regel wie innen/außen oder links/rechts verhindert, dass beide Fänger dieselbe Tear nehmen und eine andere durchrutscht."
+    },
+    {
+      "category": "Phase 3",
+      "question": "Wie beginnt Phase 3 nach Sever?",
+      "options": [
+        "Der gesamte Raid bleibt als eine Gruppe zusammen",
+        "Alle Kristalle werden sofort zerstört",
+        "Der Raid wird in eine linke und eine rechte Seite geteilt",
+        "Es beginnt direkt ein Quasar in der Mitte"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Nach Sever spielen zwei getrennte Teams ihre Mechaniken auf unterschiedlichen Seiten des Raumes."
+    },
+    {
+      "category": "Phase 3",
+      "question": "Welche Mechanik-Reihenfolge gilt für die rechte Seite?",
+      "options": [
+        "Soaks, Memory Game, Memory Game, Soaks",
+        "Memory Game, Memory Game, Soaks, Soaks",
+        "Nur abwechselnd ein Soak und ein Quasar",
+        "Memory Game, Soaks, Soaks, Memory Game"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Die rechte Seite startet mit dem Memory Game, spielt danach zwei Soak-Sets und endet mit einem weiteren Memory Game."
+    },
+    {
+      "category": "Phase 3",
+      "question": "Welche Mechanik-Reihenfolge gilt für die linke Seite?",
+      "options": [
+        "Soaks, Memory Game, Memory Game, Soaks",
+        "Memory Game, Soaks, Soaks, Memory Game",
+        "Soaks, Soaks, Memory Game, Memory Game",
+        "Nur Memory Games ohne Soaks"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Die linke Seite spielt die umgekehrte Reihenfolge zur rechten Seite."
+    },
+    {
+      "category": "Phase 3",
+      "question": "Wie löst du deine persönliche Memory-Markierung?",
+      "options": [
+        "Du läufst zum nächstgelegenen Kristallträger",
+        "Du gehst in der angezeigten Reihenfolge zu dem Spieler mit demselben Symbol",
+        "Du suchst das Symbol des vorherigen Memory Games",
+        "Du stellst dich allein an den äußeren Rand"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Gleiche Symbole müssen sich paarweise und in der vorgegebenen Reihenfolge treffen."
+    },
+    {
+      "category": "Phase 3",
+      "question": "Was passiert, wenn du beim Memory Game in das falsche Symbol läufst?",
+      "options": [
+        "Du erhältst nur einen kleinen DoT",
+        "Du wechselst automatisch auf die andere Seite",
+        "Du explodierst und stirbst",
+        "Das Memory Game beginnt vollständig von vorn"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Das falsche Symbol ist tödlich und kann zusätzlich andere Spieler gefährden."
+    },
+    {
+      "category": "Phase 3",
+      "question": "Darf ein passendes Symbolpaar auf einem Kristallträger aufgelöst werden?",
+      "options": [
+        "Nein, Kristallträger sind immer gesperrt",
+        "Nur während Dark Archangel",
+        "Nur wenn beide Spieler Heiler sind",
+        "Ja, dadurch entstehen inzwischen keine zusätzlichen Tears mehr"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Wie in Phase 1 wurde diese Wechselwirkung entschärft. Das richtige Paar kann sich auch auf einem Kristallträger treffen."
+    },
+    {
+      "category": "Phase 3",
+      "question": "Warum solltest du beim Memory Game nicht blind zum passenden Symbol sprinten?",
+      "options": [
+        "Weil gleichzeitig neue Constellation-Linien erscheinen können",
+        "Weil das Symbol seine Form noch ändern kann",
+        "Weil L’ura dich automatisch zurückzieht",
+        "Weil der Kristall dadurch sofort verschwindet"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Constellations sind während des Memory Games die eigentliche Zusatzgefahr. Erst die Linie prüfen, dann kontrolliert zum Partner laufen."
+    },
+    {
+      "category": "Phase 3",
+      "question": "Wie verhalten sich Constellations bei den festen Soak-Kreisen nach den Änderungen?",
+      "options": [
+        "Sie verdoppeln den Schaden jedes Soaks",
+        "Sie zielen nicht auf Spieler, die korrekt an ihren Soak-Positionen stehen",
+        "Sie müssen einzeln unterbrochen werden",
+        "Sie zerstören die Kristalle im Soak"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Die Soak-Sets sind dadurch deutlich ruhiger. Das Memory Game bleibt im Zusammenspiel mit Constellations wesentlich gefährlicher."
+    },
+    {
+      "category": "Phase 3",
+      "question": "Was passiert, wenn du den Lichtbereich deines zugewiesenen Kristalls verlässt?",
+      "options": [
+        "Du erhältst einen Schadensbuff",
+        "Du wechselst automatisch die Seite",
+        "Du wirst zunehmend verlangsamt und erleidest immer mehr Schaden",
+        "Du löst sofort Dark Archangel aus"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Außerhalb des Kristalllichts stapeln sich Slow und Schaden, bis du kaum noch reagieren kannst."
+    },
+    {
+      "category": "Phase 3",
+      "question": "Wie schützt du dich vor Dark Archangel und was folgt danach?",
+      "options": [
+        "Ohne Kristall in die Mitte laufen",
+        "Hinter L’ura stehen und den Cast unterbrechen",
+        "Eine Constellation absichtlich soaken",
+        "Kristall aktivieren, den neuen Schutz-Extra-Button drücken und anschließend mit der eigenen Seite weiterziehen"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Nach dem Poppen des Kristalls ändert sich der Extra-Button zur Schutzfunktion. Nach dem Einschlag bewegt sich jede Seite in ihre vorgesehene Richtung."
+    },
+    {
+      "category": "Phase 4",
+      "question": "Was sollten die Tanks zu Beginn von Phase 4 sofort klar ansagen?",
+      "options": [
+        "Wer den Bewegungs-Kreis und wer den Extra-Action-/Frontal-Job hat",
+        "Wer zuerst den Boss verlässt",
+        "Wer alle Blazes übernimmt",
+        "Wer seinen Kristall absichtlich fallen lässt"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Die beiden Tankrollen unterscheiden sich deutlich. Eine kurze Ansage verhindert, dass beide dieselbe Aufgabe erwarten."
+    },
+    {
+      "category": "Phase 4",
+      "question": "Was ist die Hauptaufgabe des Tanks mit dem Bewegungs-Kreis?",
+      "options": [
+        "Am Startpunkt stehen bleiben",
+        "Auf dem vorgesehenen Countdown zügig bewegen, ohne Spieler in die gefährliche Zone zu schneiden",
+        "Alle Blazes persönlich ablegen",
+        "Den Extra-Action-Button auf Cooldown drücken"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Der Tank muss schnell genug bewegen, darf dabei aber nicht die Gruppe mit der wandernden Gefahr erwischen."
+    },
+    {
+      "category": "Phase 4",
+      "question": "Worauf konzentriert sich der Tank mit Extra-Action-Button und Frontal?",
+      "options": [
+        "Auf die Fehler bei den Blazes anderer Spieler",
+        "Auf das Einsammeln aller Kristalle",
+        "Auf den großen Block vor der Gruppe: vorgehen, treffen und wieder zurückgehen",
+        "Auf das Memory Game aus Phase 3"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Der Tank darf sich nicht von anderen Mechaniken ablenken lassen. Verpasst er seinen Einsatz, kann der gesamte Raid sterben."
+    },
+    {
+      "category": "Phase 4",
+      "question": "Welche Grundregel gilt für die Blaze-Bewegung?",
+      "options": [
+        "Rechts, rechts, Mitte",
+        "Links, Mitte, rechts",
+        "Immer nur rückwärts",
+        "Links, rechts, links"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Die Standardfolge ist links – rechts – links. Abhängig von der Ausrichtung des Dreiecks kann die Bewegung leicht diagonal nach unten führen."
+    },
+    {
+      "category": "Phase 4",
+      "question": "Wann bewegt sich die Person in der Mitte der Blaze-Aufstellung heraus?",
+      "options": [
+        "Nachdem der erste Blaze ausgelöst wurde",
+        "Noch vor dem ersten Blaze",
+        "Erst nach allen drei Blazes",
+        "Sie bleibt während der gesamten Sequenz in der Mitte"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Nach dem ersten Einschlag entsteht der Platz, den die mittlere Person für die weitere Bewegung benötigt."
+    },
+    {
+      "category": "Phase 4",
+      "question": "Wie unterstützt ein Spieler mit Immunität die Gruppe zu Beginn der Phase?",
+      "options": [
+        "Er bleibt dauerhaft hinter dem Raid",
+        "Er läuft etwas vor der Gruppe in einer dreieckigen Linie und ist bereit, gefährliche Treffer zu blocken",
+        "Er sammelt alle Kristalle ein",
+        "Er steht mit Immunität direkt auf L’ura"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Die Immunität ist eine Absicherung. Der Spieler läuft so, dass er bei Bedarf einen gefährlichen Treffer vor der Gruppe abfangen kann."
+    }
+  ]
+}

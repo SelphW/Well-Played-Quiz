@@ -1,0 +1,482 @@
+{
+  "schemaVersion": 3,
+  "branding": {
+    "guildName": "Well Played",
+    "appTitle": "Well Played Raid-Quiz",
+    "appSubtitle": "Gildenquiz für Raidguides",
+    "headerLogoText": "WP",
+    "bannerTitle": "Well Played",
+    "bannerSubtitle": "Guild Quiz",
+    "bannerGuideFallback": "Wähle einen Guide per JSON-Datei",
+    "accentColor": "#d6a24a",
+    "accentColor2": "#36b5ff",
+    "accentColor3": "#7b4dff"
+  },
+  "quiz": {
+    "guideName": "Mythic Belo’ren Post-Nerf Guide – Raid-Soak-Strategie",
+    "pageTitle": "Mythic Belo’ren Post-Nerf Quiz",
+    "headerTitle": "Mythic Belo’ren – Post Nerf",
+    "headerSubtitle": "Interaktives Mechanik-Quiz",
+    "startTitle": "Hast du Belo’ren verstanden?",
+    "description": "38 überarbeitete Mechanikfragen zu Farben, Orbs, Dives, Adds, Quills, Eierphasen und Phase 2.",
+    "icon": "🔥"
+  },
+  "questions": [
+    {
+      "category": "Farben & Orbs",
+      "question": "Was passiert, wenn ein Orb Belo’ren berührt?",
+      "options": [
+        "Der Raid wiped",
+        "Der Boss wird nur leicht geheilt",
+        "Der Orb prallt harmlos ab",
+        "Es erscheint lediglich ein zusätzliches Add"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Auf Mythic ist jeder Orb am Boss ein sofortiger Wipe. Das gesamte Orb-Spiel dient daher vor allem dem Schutz von Belo’rens Hitbox."
+    },
+    {
+      "category": "Farben & Orbs",
+      "question": "Was geschieht während Voidlight Convergence mit den Feather-Buffs?",
+      "options": [
+        "Alle Spieler wechseln exakt gleichzeitig",
+        "Jeder Spieler erhält zu einem individuellen Zeitpunkt eine neue Farbe oder dieselbe Farbe erneut",
+        "Nur die Tanks erhalten eine neue Farbe",
+        "Die Farben verschwinden bis zum Ende des Channels"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Der Wechsel geschieht nicht für alle gleichzeitig. Tanks erhalten ihre neue Farbe zuerst, andere Spieler können während des Channels folgen."
+    },
+    {
+      "category": "Farben & Orbs",
+      "question": "Warum sollten während Voidlight Convergence möglichst keine Orbs mehr gesoakt werden?",
+      "options": [
+        "Weil Orbs während des Channels unverwundbar sind",
+        "Weil der Boss dann den Schaden reflektiert",
+        "Weil sich die eigene Farbe mitten im Soak ändern kann",
+        "Weil währenddessen keine Bewegung möglich ist"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Ein Orb kann beim Anlaufen noch passend sein und im Moment des Kontakts bereits die falsche Farbe haben. Deshalb müssen gefährliche Orbs vorher weg."
+    },
+    {
+      "category": "Farben & Orbs",
+      "question": "Welche Orb-Wände erscheinen nach einer Convergence?",
+      "options": [
+        "Eine einzige Wand in zufälliger Farbe",
+        "Zwei Wände derselben Farbe",
+        "Vier Wände, eine aus jeder Himmelsrichtung",
+        "Zwei Wände mit entgegengesetzten Farben an gegenüberliegenden Seiten"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Es spawnen immer eine Light- und eine Void-Wand. Die beiden möglichen Spawnrichtungen wechseln sich nach dem ersten zufälligen Set ab."
+    },
+    {
+      "category": "Farben & Orbs",
+      "question": "Wie wird die nahe Orb-Wand für Belo’ren passierbar gemacht?",
+      "options": [
+        "Der passende Tank entfernt schnell ungefähr fünf bis sechs Orbs und schafft eine breite Lücke",
+        "Der Boss wird durch die geschlossene Wand gedrückt",
+        "Der gesamte Raid soak die Wand vollständig",
+        "Die Wand wird bis zum Rückprall ignoriert"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Belo’ren braucht eine echte Lücke in der Wand. Ein zu kleines Loch reicht wegen der Boss-Hitbox nicht zuverlässig."
+    },
+    {
+      "category": "Farben & Orbs",
+      "question": "Wie wird die entfernte Orb-Wand zunächst kontrolliert?",
+      "options": [
+        "Sie wird ausschließlich vom aktiven Tank gesoakt",
+        "Ein beweglicher Immunity-Spieler schafft dort eine Lücke, unabhängig von seiner aktuellen Farbe",
+        "Sie wird nie berührt und immer zurückprallen gelassen",
+        "Nur Spieler mit exakt passender Farbe dürfen sie anfassen"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Die Immunität schützt auch vor einer falschen Orb-Farbe. Entscheidend ist, dass die entfernte Wand den Raid und den Boss nicht geschlossen erreicht."
+    },
+    {
+      "category": "Farben & Orbs",
+      "question": "Was kann ein Gateway beim Orb-Clearing ermöglichen?",
+      "options": [
+        "Das Gateway färbt alle Orbs automatisch um",
+        "Belo’ren wird durch das Gateway teleportiert",
+        "Ein Immunity-Spieler kann beim Überlappen durch beide Wände reisen und Orbs beider Seiten effizient entfernen",
+        "Die Orb-Wände despawnen beim Anklicken"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Richtig platzierte Gateways erlauben besonders effiziente Clears, wenn sich die beiden Orb-Wände überlagern."
+    },
+    {
+      "category": "Farben & Orbs",
+      "question": "Was geschieht mit ungesoakten Orbs am Rand und wann müssen gefährliche Orbs beseitigt sein?",
+      "options": [
+        "Sie verschwinden sofort am Rand",
+        "Sie bleiben unbeweglich liegen",
+        "Sie verwandeln sich beim Rückprall in Quills",
+        "Sie prallen zurück, können Raid oder Boss neu anvisieren und müssen vor der nächsten Convergence entfernt sein"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Der Rückprall ist gefährlich, weil Orbs ihre Richtung ändern können. Während der nächsten Convergence ist ein später Soak wegen des Farbwechsels zu riskant."
+    },
+    {
+      "category": "Farben & Orbs",
+      "question": "Welche Orbs müssen tatsächlich unbedingt gesoakt werden?",
+      "options": [
+        "Alle Orbs, die den Boss oder den Raid bedrohen; ungefährliche Orbs dürfen despawnen",
+        "Jeder einzelne Orb im Raum",
+        "Nur Light-Orbs",
+        "Nur Orbs direkt in der Raummitte"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Das Ziel ist nicht ein komplett leerer Raum, sondern ein sicherer Boss und ein sicherer Raid."
+    },
+    {
+      "category": "Farben & Orbs",
+      "question": "Was ist der Unterschied zwischen einer richtigen und einer falschen Orb-Farbe?",
+      "options": [
+        "Beide Farben verursachen exakt denselben Schaden",
+        "Richtige Orbs sind meist verkraftbar; falsche verursachen einen massiven Treffer und einen langen DoT",
+        "Nur richtige Orbs können töten",
+        "Falsche Orbs wechseln lediglich den Feather-Buff"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Auch richtige Orbs können bei niedrigem Leben oder mehreren gleichzeitigen Treffern töten. Falsche Orbs sind ohne Immunität jedoch deutlich gefährlicher."
+    },
+    {
+      "category": "Farben & Orbs",
+      "question": "Was ist die wichtigste persönliche Regel beim Orb-Spiel?",
+      "options": [
+        "Immer in der Boss-Hitbox bleiben",
+        "Nur Orbs direkt vor den Heilern beobachten",
+        "Aggressiv passende Orbs abfangen, aber niemals während des unsicheren Farbwechsels blind soaken",
+        "Möglichst viele Orbs gleichzeitig nehmen"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Gutes Orb-Spiel verbindet Eigeninitiative mit Timing: weit rausgehen und schützen, aber vor Convergence rechtzeitig aufhören."
+    },
+    {
+      "category": "Dives & Adds",
+      "question": "Wie werden Light Dive und Void Dive in der Raid-Soak-Strategie gespielt?",
+      "options": [
+        "Sie werden auf gegenüberliegenden Seiten getrennt",
+        "Nur der Dive der eigenen Farbe wird gesoakt",
+        "Beide werden außerhalb des Raids abgelegt",
+        "Beide werden auf demselben Marker gestapelt und gemeinsam gesoakt; ihre Farben sind dabei egal"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Die Post-Nerf-Strategie bündelt beide Dives in einem großen Raid-Soak. Die Farbe der beiden Dive-Ziele spielt dabei keine Rolle."
+    },
+    {
+      "category": "Dives & Adds",
+      "question": "Worauf muss die Positionierung vor dem Dive-Knockback achten?",
+      "options": [
+        "Man darf nicht in alte Flächen, das Tankfrontal oder falsche Orbs geschleudert werden",
+        "Man sollte möglichst weit an den äußersten Rand fliegen",
+        "Alle stehen direkt vor dem Boss",
+        "Der Knockback muss absichtlich in die nächste Orb-Wand führen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Der Knockback geht vom Mittelpunkt des Soaks nach außen. Die Blickrichtung und die Umgebung entscheiden, ob man sicher landet."
+    },
+    {
+      "category": "Dives & Adds",
+      "question": "Was geschieht nach der Landung der beiden Vögel?",
+      "options": [
+        "Sie werden dauerhaft am Rand gekitet",
+        "Sie werden kontrolliert unter beziehungsweise an den Boss gebracht und von den vorgesehenen Spielern gehalten",
+        "Sie werden komplett ignoriert",
+        "Beide Tanks nehmen sie zusätzlich zum Boss vor die Front"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Die Adds sollen in Cleave-Reichweite stehen, ohne die eigentlichen Tanks mit zusätzlicher Aggro vor dem Boss zu gefährden."
+    },
+    {
+      "category": "Dives & Adds",
+      "question": "Warum sollten die Boss-Tanks möglichst keine Aggro auf den Vögeln bekommen?",
+      "options": [
+        "Weil die Vögel dann immun werden",
+        "Weil Belo’ren dadurch sofort ins Ei wechselt",
+        "Weil sie sonst zusammen mit den Adds im gefährlichen Bossfrontal stehen und sterben können",
+        "Weil die Adds dann nicht mehr unterbrechbar sind"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Die Vögel werden durch separate Taunts kontrolliert, damit die Boss-Tanks ihre Position und das Frontal sauber halten können."
+    },
+    {
+      "category": "Dives & Adds",
+      "question": "Welche Zielpriorität gilt bei den Vögeln und ihren Eiern?",
+      "options": [
+        "Die Eier ignorieren und nur Belo’ren angreifen",
+        "Die Vögel leben lassen, bis sie selbst despawnen",
+        "Zuerst sämtliche Orbs im Raum vollständig entfernen",
+        "Vögel kontrolliert töten und anschließend ihre Eier rechtzeitig fokussieren"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Nach dem Tod eines Vogels bleibt ein Ei zurück. Dieses muss rechtzeitig sterben, während Belo’ren und die Adds möglichst effizient gecleavt werden."
+    },
+    {
+      "category": "Dives & Adds",
+      "question": "Wer kann Light Eruption beziehungsweise Void Eruption erfolgreich unterbrechen?",
+      "options": [
+        "Nur ein Spieler, dessen aktuelle Farbe zum jeweiligen Cast passt",
+        "Jeder Spieler mit einem Interrupt",
+        "Nur die Tanks",
+        "Nur Spieler, die zuvor eine Quill gesoakt haben"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Light Eruption verlangt Light, Void Eruption verlangt Void. Ein technisch gedrückter Kick mit der falschen Farbe zählt nicht."
+    },
+    {
+      "category": "Dives & Adds",
+      "question": "Warum werden die Add-Kicks am besten mit Calls wie „Next Light“ und „Next Void“ koordiniert?",
+      "options": [
+        "Weil die Adds zufällige Namen erhalten",
+        "Weil die Farben zufällig neu verteilt werden und eine starre Reihenfolge deshalb unzuverlässig ist",
+        "Weil Interrupts nur einmal pro Kampf funktionieren",
+        "Weil die Casts keine Bossframes besitzen"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Die verfügbaren Kicker ändern sich mit jedem Farbwechsel. Klare Voice-Calls verhindern Doppel-Kicks und freie Casts."
+    },
+    {
+      "category": "Quills",
+      "question": "Wie wird eine Quill korrekt abgefangen?",
+      "options": [
+        "Vom gesamten Raid gemeinsam",
+        "Von einem Spieler beliebiger Farbe",
+        "Von genau einem Spieler mit passender Farbe",
+        "Gar nicht; Quills müssen ausgewichen werden"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Die Quill muss farblich passen. Mehrere Spieler auf derselben Quill erzeugen unnötig zusätzlichen Schaden."
+    },
+    {
+      "category": "Quills",
+      "question": "Was ist auf Mythic beim Quill-Einschlag zusätzlich zu beachten?",
+      "options": [
+        "Die Quill zieht den Raid zusammen",
+        "Der Einschlag wechselt die Farben aller Spieler",
+        "Die Quill beschwört sofort einen weiteren Vogel",
+        "Der Soaker verursacht einen sichtbaren Flächenschaden um sich und alle anderen müssen Abstand halten"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Der Kreis um den Soaker zeigt den Mythic-AoE. Die Mechanik ist deshalb ein Einzelsoak und kein gemeinsames Stapeln."
+    },
+    {
+      "category": "Quills",
+      "question": "Wo sollte eine Quill möglichst abgefangen werden?",
+      "options": [
+        "Nahe an ihrem Spawnpunkt, damit ihre Flugbahn eindeutig bleibt",
+        "Direkt in der Boss-Hitbox",
+        "Am gegenüberliegenden Raumrand",
+        "Inmitten des gestapelten Raids"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Frühes Abfangen an der Quelle reduziert Verwirrung und verhindert, dass die Quill durch andere Spieler fliegt."
+    },
+    {
+      "category": "Erstes Ei",
+      "question": "Wann sollte das Gateway nach Death Drop benutzt werden?",
+      "options": [
+        "Sofort beim Beginn des Casts",
+        "Erst wenn Belo’ren tatsächlich sichtbar herunterfällt",
+        "Erst nach dem vollständigen Knockback",
+        "Sobald die ersten Pizza-Slices verschwinden"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Belo’ren kann den tatsächlichen Fall nach dem Castende verzögern. Ein zu frühes Gate führt dazu, dass der Knockback trotzdem trifft."
+    },
+    {
+      "category": "Erstes Ei",
+      "question": "Wie werden die Pizza-Slices während Rebirth gespielt?",
+      "options": [
+        "Alle Spieler stehen immer im Light-Slice",
+        "Die Farbe wird während des Ei-Burns ignoriert",
+        "Du stehst im Slice deiner aktuellen Farbe und wechselst bei Bedarf zum nächsten passenden Slice",
+        "Jeder bleibt dauerhaft im ersten Slice"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Ein Slice der falschen Farbe gibt einen langen DoT. Mechanik zuerst, Uptime danach."
+    },
+    {
+      "category": "Erstes Ei",
+      "question": "Was ist beim falschen Pizza-Slice die Folge?",
+      "options": [
+        "Ein sofortiger garantierter Wipe",
+        "Nur ein kurzer Bewegungs-Slow",
+        "Das Ei wird vollständig geheilt",
+        "Ein ungefähr 60 Sekunden langer DoT"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Ein einzelner Fehler ist nicht immer sofort tödlich, belastet die Heiler aber für eine sehr lange Zeit."
+    },
+    {
+      "category": "Erstes Ei",
+      "question": "Was passiert ungefähr beim siebten Slice-Set zusätzlich?",
+      "options": [
+        "Zwei Orb-Linien bedrohen das Ei und müssen in der Entfernung geöffnet werden, während der Raid eng am Ei bleibt",
+        "Die Vögel erscheinen erneut",
+        "Alle Spieler verlieren ihre Farbe",
+        "Das Ei beginnt einen unterbrechbaren Cast"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Der Raid kuschelt am Ei, um keine zusätzlichen Orbs zu berühren. Die vorgesehenen Spieler schaffen draußen die nötigen Lücken."
+    },
+    {
+      "category": "Erstes Ei",
+      "question": "Wie lange dauert der Rebirth-Burn nach den Nerfs?",
+      "options": [
+        "20 Sekunden",
+        "40 Sekunden",
+        "30 Sekunden",
+        "60 Sekunden"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Die zusätzlichen zehn Sekunden sind einer der größten Nerfs und machen den Schadencheck deutlich entspannter."
+    },
+    {
+      "category": "Erstes Ei",
+      "question": "Was ist während des ersten Ei-Burns die richtige Priorität?",
+      "options": [
+        "Nur Schaden machen und die Farben ignorieren",
+        "Das Ei bis zum zweiten Burn nicht angreifen",
+        "Eigene Slices korrekt spielen und gleichzeitig alle vorgesehenen offensiven Cooldowns nutzen",
+        "Ausschließlich defensive Fähigkeiten benutzen"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Der Burn ist lang genug, um Mechaniken sauber zu spielen. Ein toter Spieler gewinnt keinen DPS-Check."
+    },
+    {
+      "category": "Phase 2",
+      "question": "Warum ist der Übergang nach dem ersten Ei besonders gefährlich?",
+      "options": [
+        "Alle Vögel stehen gleichzeitig wieder auf",
+        "Die Pizza-Slices bleiben dauerhaft aktiv",
+        "Belo’ren wirkt sofort einen Enrage",
+        "Restliche Ei-Orbs bedrohen den wiedergeborenen Boss, während bereits eine neue Convergence läuft"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Die Kombination aus restlichen Orbs und unsicherem Farbwechsel macht diesen Übergang zu einem der gefährlichsten Momente."
+    },
+    {
+      "category": "Phase 2",
+      "question": "Was sollte ein normaler Spieler beim Orb-Clearing direkt nach dem Ei beachten?",
+      "options": [
+        "Er hilft erst sicher mit, sobald seine neue Farbe feststeht, außer ein Orb muss unbedingt sofort verhindert werden",
+        "Er nimmt sofort jede erreichbare Orb",
+        "Er ignoriert alle Orbs bis zum nächsten Dive",
+        "Er soak grundsätzlich nur die falsche Farbe"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Während der Convergence kann sich die Farbe noch ändern. Blindes Clearing produziert hier leicht zusätzliche Tote."
+    },
+    {
+      "category": "Phase 2",
+      "question": "Wohin wird Belo’ren nach der Eierphase bewegt?",
+      "options": [
+        "Immer exakt zurück an den Pullpunkt",
+        "Durch die orbfreie Sicherheitsbahn, die sich aus der Richtung der Ei-Orbs ergibt",
+        "Durch die dichteste verbleibende Orb-Wand",
+        "Dauerhaft in die Raummitte"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Die Orb-Linien aus der Intermission lassen eine sichere Laufbahn frei. Diese bestimmt die neue Bossseite."
+    },
+    {
+      "category": "Phase 2",
+      "question": "Wie werden die neue Orb-Wand und die Bossbewegung gleichzeitig gelöst?",
+      "options": [
+        "Belo’ren bleibt stehen, bis alle Orbs despawnen",
+        "Der gesamte Raid zieht den Boss durch die geschlossene Wand",
+        "Die nahe Wand wird wieder breit geöffnet, während der andere Tank Belo’ren zur vorgesehenen Position bewegt",
+        "Die Wände werden in Phase 2 vollständig ignoriert"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Auch in Phase 2 braucht die Boss-Hitbox eine sichere Lücke. Gleichzeitig muss das Frontal zum Rand zeigen."
+    },
+    {
+      "category": "Phase 2",
+      "question": "Wohin werden die Dives relativ zur Bossbewegung gelegt?",
+      "options": [
+        "Direkt auf die neue Bossposition",
+        "Immer in die Raummitte",
+        "Vor das Tankfrontal",
+        "Auf den Marker in der entgegengesetzten Richtung zur Bossbewegung"
+      ],
+      "correctAnswer": 3,
+      "explanation": "So kollidiert der Dive-Knockback nicht mit der Laufbahn des Bosses und der nachfolgenden Ringbewegung."
+    },
+    {
+      "category": "Phase 2",
+      "question": "Wie funktioniert der Orb-Ring um Belo’ren?",
+      "options": [
+        "Die Orbs laufen zur aktuellen Bossposition zusammen und prallen danach auf ihren ursprünglichen Wegen zurück",
+        "Die Orbs bewegen sich nur vom Boss weg",
+        "Der Ring bleibt dauerhaft unbeweglich",
+        "Alle Ring-Orbs verschwinden beim Zusammentreffen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Der Ring hat zwei gefährliche Bewegungen: das Zusammenlaufen und den anschließenden Rückprall."
+    },
+    {
+      "category": "Phase 2",
+      "question": "Wie wird der Orb-Ring grundsätzlich gelöst?",
+      "options": [
+        "Der Boss bleibt exakt im Zentrum stehen",
+        "Belo’ren wird während des Rings aus dem Konvergenzpunkt zum nächsten Marker bewegt",
+        "Der gesamte Raid soak den geschlossenen Ring gleichzeitig",
+        "Die Orbs werden durch einen Interrupt gestoppt"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Durch die Bossbewegung konvergieren die Orbs auf einer alten Position. Dadurch muss nur ein Teil der Bahnen tatsächlich kontrolliert werden."
+    },
+    {
+      "category": "Phase 2",
+      "question": "Wo sollten die Vögel in Phase 2 positioniert und getötet werden?",
+      "options": [
+        "Möglichst weit entfernt an zwei Raumrändern",
+        "Direkt hinter dem Raid",
+        "Vor der geplanten Bossbewegung und anschließend in Cleave-Reichweite der neuen Bossposition",
+        "In den alten Dive-Pfützen außerhalb jeder Cleave-Reichweite"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Gute Vorpositionierung sorgt dafür, dass Vögel, Eier und Belo’ren gemeinsam Schaden erhalten, ohne die nächste Bewegung zu behindern."
+    },
+    {
+      "category": "Phase 2",
+      "question": "Welche zusätzliche Heilmechanik tritt in Phase 2 auf?",
+      "options": [
+        "Ein permanenter Mana-Drain",
+        "Ein nicht entfernbares Silence",
+        "Eine Heilimmunität auf allen Kristallträgern",
+        "Healing Absorbs, die schnell entfernt werden müssen"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Die Absorbs kommen während einer ohnehin mechanisch dichten Phase. Langsames Wegheilen erhöht das Risiko der nächsten Schadensspitze."
+    },
+    {
+      "category": "Phase 2",
+      "question": "Was muss vor der nächsten Voidlight Convergence erledigt sein und was möchte man insgesamt vermeiden?",
+      "options": [
+        "Gefährliche Rückprall-Orbs müssen früh weg sein, und der Boss sollte vor einer dritten Dive-/Add-Welle gepusht werden",
+        "Alle Orbs bleiben absichtlich bis zum Channel liegen",
+        "Die dritte Add-Welle ist zwingend erforderlich",
+        "Der Raid stapelt während der Convergence in den Orb-Bahnen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Spätes Orb-Clearing ist wegen des Farbwechsels gefährlich. Gleichzeitig spart ein rechtzeitiger Push eine weitere volle Add-Sequenz."
+    },
+    {
+      "category": "Zweites Ei",
+      "question": "Wie unterscheidet sich der zweite Ei-Burn grundsätzlich vom ersten?",
+      "options": [
+        "Es gibt keine Farben mehr",
+        "Er wird nahezu identisch gespielt: passende Slices, Orb-Lücken und alles verfügbare für den Kill",
+        "Nur Tanks dürfen das Ei angreifen",
+        "Die Slices müssen absichtlich falsch genommen werden"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Die Mechanik bleibt gleich. Am Ende zählt saubere Ausführung mit verbleibenden Defensives und Schaden, bis das Ei stirbt."
+    }
+  ]
+}
