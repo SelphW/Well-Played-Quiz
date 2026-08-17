@@ -26,107 +26,107 @@
       "question": "Welche zwei Grundregeln gelten während des gesamten Entombed-Sentinels-Kampfes?",
       "options": [
         "Beide Golems müssen dicht zusammenstehen und möglichst unterschiedliche HP haben",
-        "Die Golems müssen mindestens 40 Meter auseinanderstehen und möglichst ähnliche HP haben",
         "Nur der rote Golem darf bewegt werden und beide müssen gleichzeitig sterben",
+        "Die Golems müssen mindestens 40 Meter auseinanderstehen und möglichst ähnliche HP haben",
         "Beide Gruppen müssen dauerhaft zwischen den Golems stehen"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 2,
       "explanation": "Sind die Sentinels näher als 40 Meter zusammen, erhalten sie 99 % Schadensreduktion. Außerdem sollte ihr Leben möglichst ähnlich bleiben, weil Vitriolic Stasis den schwächeren Boss wieder hochheilt."
     },
     {
       "category": "Grundprinzip",
       "question": "Warum sollte der Raid den Schaden auf beide Golems möglichst gleichmäßig verteilen?",
       "options": [
+        "Weil Vitriolic Stasis den Boss mit weniger Leben bis auf den Stand des anderen hochheilt",
         "Weil der Boss mit weniger Leben sonst sofort enraged",
         "Weil der Boss mit mehr Leben sonst unangreifbar wird",
-        "Weil Vitriolic Stasis den Boss mit weniger Leben bis auf den Stand des anderen hochheilt",
         "Weil beide Golems exakt gleichzeitig sterben müssen"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 0,
       "explanation": "Während Vitriolic Stasis wird der Sentinel mit weniger Leben hochgeheilt, bis beide gleichauf sind. Ein großer DPS-Unterschied zwischen den Gruppen wird dadurch praktisch rückgängig gemacht."
     },
     {
       "category": "Grundprinzip",
       "question": "Warum tauschen beide Gruppen nach jeder Intermission die Seiten?",
       "options": [
+        "Damit die Toxic Droplets automatisch verschwinden",
         "Damit die 40 Sekunden laufenden Stapel von Mark of Acid beziehungsweise Mark of Blood auslaufen können",
         "Damit Vitriolic Stasis schneller endet",
-        "Damit die beiden Golems ihre Energie zurücksetzen",
-        "Damit die Toxic Droplets automatisch verschwinden"
+        "Damit die beiden Golems ihre Energie zurücksetzen"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "Jeder Golem versieht Spieler in seiner Nähe regelmäßig mit seinem eigenen stapelnden 40-Sekunden-DoT. Durch den Seitenwechsel können die alten Stacks auslaufen."
     },
     {
       "category": "Grundprinzip",
       "question": "Warum ist es riskant, als Multi-DoT-Spieler längere Zeit in der Mitte zu stehen und beide Bosse anzugreifen?",
       "options": [
-        "Man erhält dadurch beide stapelnden Marks",
         "Man aktiviert sofort Vitriolic Stasis",
-        "Beide Bosse erhalten dadurch 99 % Schadensreduktion, unabhängig von ihrer Entfernung",
-        "Man löst automatisch Helical Toxins aus"
+        "Man erhält dadurch beide stapelnden Marks",
+        "Man löst automatisch Helical Toxins aus",
+        "Beide Bosse erhalten dadurch 99 % Schadensreduktion, unabhängig von ihrer Entfernung"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "Wer in Reichweite beider Golems steht, kann sowohl Mark of Acid als auch Mark of Blood sammeln. Das ist für längere Zeit unnötiger zusätzlicher Schaden."
     },
     {
       "category": "Grüner Golem",
       "question": "Wie werden Toxic Droplets korrekt behandelt?",
       "options": [
-        "Ignorieren, bis sie automatisch verschwinden",
         "Einzelne Spieler treten kontrolliert hinein und verteilen die Droplets untereinander",
-        "Alle Droplets werden vom Tank gleichzeitig aufgenommen",
-        "Sie müssen in den roten Golem gezogen werden"
+        "Sie müssen in den roten Golem gezogen werden",
+        "Ignorieren, bis sie automatisch verschwinden",
+        "Alle Droplets werden vom Tank gleichzeitig aufgenommen"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 0,
       "explanation": "Toxic Droplets explodieren nach 16 Sekunden für hohen Raid-Schaden, wenn sie nicht entschärft werden. Spieler treten deshalb kontrolliert hinein, typischerweise ein bis zwei pro Person."
     },
     {
       "category": "Grüner Golem",
       "question": "Was passiert, wenn Toxic Droplets 16 Sekunden lang nicht aufgenommen werden?",
       "options": [
-        "Sie heilen den grünen Golem",
-        "Sie werden zu Living Venom",
+        "Sie teleportieren sich zum roten Golem",
         "Sie explodieren als Noxious Blast und verursachen hohen raidweiten Schaden",
-        "Sie teleportieren sich zum roten Golem"
+        "Sie heilen den grünen Golem",
+        "Sie werden zu Living Venom"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 1,
       "explanation": "Nicht aufgenommene Droplets lösen Noxious Blast aus. Mehrere gleichzeitig können den Raid sehr schnell überfordern."
     },
     {
       "category": "Grüner Golem",
       "question": "Was ist bei Venom Coagulation die höchste Priorität der grünen Gruppe?",
       "options": [
-        "Den entstehenden Slime sofort töten",
         "Den Boss komplett ignorieren und zum roten Golem laufen",
+        "Den Slime zum Rand kiten und dort stehen lassen",
         "Alle Toxic Droplets gleichzeitig aufnehmen",
-        "Den Slime zum Rand kiten und dort stehen lassen"
+        "Den entstehenden Slime sofort töten"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 3,
       "explanation": "Venom Coagulation erzeugt einen großen Slime, der durch Contaminate alle drei Sekunden Raid-Schaden verursacht. Er ist deshalb sofortige Kill-Priorität."
     },
     {
       "category": "Grüner Golem",
       "question": "Was ist bei Living Venom wichtig?",
       "options": [
-        "Nur den Hinweg der grünen Linien dodgen",
-        "Die Linien soaken, damit sie nicht zum Boss zurückkehren",
         "Sowohl dem Hinweg als auch dem Rückweg der Linien ausweichen",
-        "Direkt zwischen Einschlagspunkt und Boss stehen"
+        "Die Linien soaken, damit sie nicht zum Boss zurückkehren",
+        "Direkt zwischen Einschlagspunkt und Boss stehen",
+        "Nur den Hinweg der grünen Linien dodgen"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 0,
       "explanation": "Die Venom-Linien fliegen zunächst vom Boss weg und kommen nach kurzer Verzögerung zurück. Beide Wege sind gefährlich."
     },
     {
       "category": "Grüner Golem",
       "question": "Wie funktioniert Empowering Slam beim grünen Golem?",
       "options": [
-        "Jeder Treffer auf dasselbe Ziel erhöht den physischen Schaden des Golems um 15 %, bis er ein anderes Ziel trifft",
-        "Der Tank erhält pro Treffer 15 % mehr Heilung",
         "Der Slam wird schwächer, je öfter er denselben Tank trifft",
+        "Der Tank erhält pro Treffer 15 % mehr Heilung",
+        "Jeder Treffer auf dasselbe Ziel erhöht den physischen Schaden des Golems um 15 %, bis er ein anderes Ziel trifft",
         "Die Fähigkeit setzt automatisch bei 100 Energie zurück"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 2,
       "explanation": "Empowering Slam verstärkt den physischen Schaden des Golems mit jedem Treffer auf dasselbe Ziel. Der Effekt wird erst zurückgesetzt, wenn ein anderes Ziel getroffen wird."
     },
     {
@@ -134,23 +134,23 @@
       "question": "Warum sollte die Gruppe am Blood of Ula'tek möglichst in einer Ecke starten?",
       "options": [
         "Weil der Boss dort weniger Schaden verursacht",
-        "Damit Blood-Venom-Pfützen kontrolliert am Rand abgelegt werden können",
+        "Damit Mark of Blood keine Stacks erzeugt",
         "Damit Unstable Miasma nicht mehr gesoakt werden muss",
-        "Damit Mark of Blood keine Stacks erzeugt"
+        "Damit Blood-Venom-Pfützen kontrolliert am Rand abgelegt werden können"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 3,
       "explanation": "Auf der roten Seite entstehen regelmäßig Pfützen. Ein Start in der Ecke schafft Platz, um sie entlang des Randes abzulegen und die Spielfläche sauber zu halten."
     },
     {
       "category": "Roter Golem",
       "question": "Wann entsteht eine Blood-Venom-Pfütze?",
       "options": [
-        "Nur wenn ein Spieler stirbt",
         "Wenn Blood Venom ausläuft oder dispellt wird",
         "Nur während der Intermission",
-        "Immer wenn Toxic Droplets aufgenommen werden"
+        "Immer wenn Toxic Droplets aufgenommen werden",
+        "Nur wenn ein Spieler stirbt"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 0,
       "explanation": "Blood Venom hinterlässt beim Auslaufen oder Dispel eine Pfütze. Je mehr Anwendungen ein Spieler besitzt, desto größer kann sie ausfallen."
     },
     {
@@ -158,11 +158,11 @@
       "question": "Wie sollte Blighted Blood beziehungsweise Blood Venom dispellt werden?",
       "options": [
         "Sofort mitten in der Gruppe",
-        "Nur während Vitriolic Stasis",
         "Betroffene Spieler gehen an einen sicheren Randbereich und werden dort dispellt",
-        "Gar nicht, der Debuff muss immer vollständig auslaufen"
+        "Gar nicht, der Debuff muss immer vollständig auslaufen",
+        "Nur während Vitriolic Stasis"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 1,
       "explanation": "Da beim Entfernen eine Pfütze entsteht, ist der Dispel gleichzeitig eine Positionierungsmechanik. Erst rausgehen, dann dispellen."
     },
     {
@@ -171,8 +171,8 @@
       "options": [
         "Der markierte Spieler läuft allein aus der Gruppe",
         "Die rote Gruppe stackt innerhalb von 8 Metern, um den starken Treffer aufzuteilen",
-        "Nur der Tank soak't die Mechanik",
-        "Die grüne Gruppe läuft zur roten Seite und übernimmt den Soak"
+        "Die grüne Gruppe läuft zur roten Seite und übernimmt den Soak",
+        "Nur der Tank soak't die Mechanik"
       ],
       "correctAnswer": 1,
       "explanation": "Unstable Miasma verursacht nach 8 Sekunden enormen Schaden, der auf Spieler innerhalb von 8 Metern verteilt wird. Die rote Gruppe soak't daher gemeinsam."
@@ -182,23 +182,23 @@
       "question": "Was sollte die Gruppe direkt nach dem Unstable-Miasma-Soak tun?",
       "options": [
         "Gestackt bleiben, bis die nächste Intermission beginnt",
-        "Zur grünen Seite wechseln",
         "Wieder auseinandergehen und anschließend die entstehenden Pfützen sauber ablegen",
+        "Zur grünen Seite wechseln",
         "In die Mitte laufen und beide Bosse angreifen"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 1,
       "explanation": "Nach dem Soak erhalten Spieler Clinging Murk und Blood-Venom-Anwendungen. Danach wird wieder auseinandergegangen und die folgenden Pfützen kontrolliert platziert."
     },
     {
       "category": "Roter Golem",
       "question": "Was muss der Tank mit Bloodvenom Injection besonders beachten?",
       "options": [
-        "Kurz vor Ablauf des Debuffs an eine sichere Stelle laufen, weil eine große Pfütze entsteht",
-        "Den Debuff direkt in der Gruppe dispellen lassen",
         "Den roten Boss sofort zum grünen Boss ziehen",
-        "Während des Debuffs darf der Tank sich nicht bewegen"
+        "Den Debuff direkt in der Gruppe dispellen lassen",
+        "Während des Debuffs darf der Tank sich nicht bewegen",
+        "Kurz vor Ablauf des Debuffs an eine sichere Stelle laufen, weil eine große Pfütze entsteht"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 3,
       "explanation": "Bloodvenom Injection verursacht neben seinem Tank-Debuff beim Ablauf eine sehr große Pfütze. Der Tank, der nach der Intermission die Seite wechselt, legt sie deshalb bewusst außerhalb der Spielfläche ab."
     },
     {
@@ -206,11 +206,11 @@
       "question": "Wann beginnt Vitriolic Stasis?",
       "options": [
         "Bei 50 % Bossleben",
-        "Bei 100 Energie",
         "Nach jedem zweiten Unstable Miasma",
+        "Bei 100 Energie",
         "Sobald einer der beiden Golems 10 % weniger Leben hat"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 2,
       "explanation": "Bei 100 Energie beginnt die wiederkehrende 30-sekündige Intermission Vitriolic Stasis."
     },
     {
@@ -218,71 +218,71 @@
       "question": "Was passiert mit den beiden Sentinels während Vitriolic Stasis?",
       "options": [
         "Sie bleiben auf ihren Seiten und nehmen doppelten Schaden",
+        "Sie tauschen nur ihre Positionen und bleiben normal angreifbar",
         "Sie laufen zur Mitte, erhalten 99 % Schadensreduktion und gleichen ihre Lebenspunkte an",
-        "Sie verschwinden vollständig aus der Arena",
-        "Sie tauschen nur ihre Positionen und bleiben normal angreifbar"
+        "Sie verschwinden vollständig aus der Arena"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 2,
       "explanation": "Beide Golems treffen sich in der Mitte und nehmen 30 Sekunden lang praktisch keinen Schaden. Der schwächere wird dabei bis auf das Leben des stärkeren hochgeheilt."
     },
     {
       "category": "Intermission",
       "question": "Was ist die Aufgabe bei Helical Toxins?",
       "options": [
-        "Mit genau einem anderen Spieler zusammenlaufen, sodass eure grünen Orbs zusammen exakt 4 ergeben",
-        "Mit vier beliebigen Spielern gleichzeitig stacken",
         "Immer einen Spieler mit derselben Zahl grüner Orbs suchen",
-        "Alle roten Orbs zusammen auf exakt 4 bringen"
+        "Alle roten Orbs zusammen auf exakt 4 bringen",
+        "Mit vier beliebigen Spielern gleichzeitig stacken",
+        "Mit genau einem anderen Spieler zusammenlaufen, sodass eure grünen Orbs zusammen exakt 4 ergeben"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 3,
       "explanation": "Jeder hat vier rote/grüne Orbs über dem Kopf. Entscheidend sind die grünen: Dein Wert plus der Wert deines Partners muss exakt 4 ergeben."
     },
     {
       "category": "Intermission",
       "question": "Du hast bei Helical Toxins 1 grünen und 3 rote Orbs. Welchen Partner suchst du?",
       "options": [
-        "1 grün / 3 rot",
-        "2 grün / 2 rot",
         "3 grün / 1 rot",
-        "4 grün / 0 rot"
+        "2 grün / 2 rot",
+        "4 grün / 0 rot",
+        "1 grün / 3 rot"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 0,
       "explanation": "1 + 3 = 4. Genau diese Summe neutralisiert Helical Toxins."
     },
     {
       "category": "Intermission",
       "question": "Du hast bei Helical Toxins 2 grüne Orbs. Welche Anzahl grüner Orbs braucht dein Partner?",
       "options": [
-        "0",
-        "1",
         "2",
-        "4"
+        "0",
+        "4",
+        "1"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 0,
       "explanation": "2 + 2 = 4. Das ist immerhin die eine Rechnung, an der hoffentlich niemand im Voice zerbricht."
     },
     {
       "category": "Intermission",
       "question": "Was passiert bei einem falschen Helical-Toxins-Pairing oder wenn die Mechanik nicht rechtzeitig gelöst wird?",
       "options": [
+        "Vitriolic Stasis endet sofort ohne weitere Folgen",
         "Die Bosse erhalten dauerhaft 10 % mehr Schaden",
         "Cultivated Burst verursacht extrem hohen Schaden und hinterlässt eine große Pfütze",
-        "Der Spieler wird lediglich für fünf Sekunden verlangsamt",
-        "Vitriolic Stasis endet sofort ohne weitere Folgen"
+        "Der Spieler wird lediglich für fünf Sekunden verlangsamt"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 2,
       "explanation": "Fehler führen zu Cultivated Burst. Das ist potenziell tödlich und hinterlässt zusätzlich eine große Pfütze, daher sollte ein definierter Punishment Corner genutzt werden."
     },
     {
       "category": "Intermission",
       "question": "Was ist bei Helical Toxins wichtiger als Geschwindigkeit?",
       "options": [
-        "Ruhig bleiben, die Orbs lesen und den richtigen Partner finden",
-        "Sofort den nächstbesten Spieler berühren",
         "Weiter maximalen Boss-DPS machen",
-        "In die Mitte stacken und auf eine automatische Auflösung warten"
+        "In die Mitte stacken und auf eine automatische Auflösung warten",
+        "Sofort den nächstbesten Spieler berühren",
+        "Ruhig bleiben, die Orbs lesen und den richtigen Partner finden"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 3,
       "explanation": "Die Bosse sind während der Intermission ohnehin praktisch immun und es ist genügend Zeit vorhanden. Falsche Hektik ist gefährlicher als langsames, korrektes Pairing."
     },
     {
@@ -290,23 +290,23 @@
       "question": "Was passiert direkt nach dem Ende der Intermission?",
       "options": [
         "Nur die Tanks wechseln die Seiten",
-        "Nur die DPS wechseln die Seiten",
         "Beide Gruppen und beide Tanks tauschen die Seiten und der normale Ablauf beginnt erneut",
-        "Beide Golems bleiben in der Mitte und Phase 2 beginnt"
+        "Beide Golems bleiben in der Mitte und Phase 2 beginnt",
+        "Nur die DPS wechseln die Seiten"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 1,
       "explanation": "Nach Vitriolic Stasis wechseln beide kompletten Teams inklusive Tanks die Seiten. Dadurch können die alten Mark-Stapel auslaufen und die Tankmechaniken werden zurückgesetzt."
     },
     {
       "category": "Strategie",
       "question": "Wann empfiehlt Method Heroism/Bloodlust bei Entombed Sentinels?",
       "options": [
-        "Direkt beim Pull",
-        "In der ersten Intermission",
         "Nach dem zweiten Seitenwechsel",
-        "Erst unter 20 % Bossleben"
+        "Erst unter 20 % Bossleben",
+        "In der ersten Intermission",
+        "Direkt beim Pull"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 3,
       "explanation": "Method empfiehlt Hero/Lust auf Pull. Es gibt keine besondere Burn-Phase; die Intermission ist hauptsächlich Downtime."
     }
   ]

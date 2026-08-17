@@ -18,296 +18,356 @@
     "headerTitle": "The Venomous Abyss – Heroic Vashnik the Malignant",
     "headerSubtitle": "Interaktives Mechanik-Quiz",
     "startTitle": "Hast du Vashnik verstanden?",
-    "description": "24 Fragen zu Imbibe, Fountain-Rotation, Living Venoms, Adaptive Infections, Standardmechaniken und Toxic Vapor."
+    "description": "29 Fragen zu Imbibe, Fountain-Rotation, den drei Living-Venom-Typen, Adaptive Infections, Standardmechaniken und Toxic Vapor."
   },
   "questions": [
     {
-      "category": "Grundprinzip",
-      "question": "Was passiert bei Imbibe auf 100 Energie?",
+      "category": "Imbibe & Fountain-Rotation",
+      "question": "Was passiert, wenn Vashnik bei 100 Energie Imbibe wirkt?",
       "options": [
-        "Vashnik trinkt aus allen drei Brunnen gleichzeitig",
-        "Vashnik trinkt aus den zwei nächstgelegenen Brunnen, erhält deren Mechaniken und einen permanenten Toxic-Vapor-Stapel",
-        "Vashnik leert seine Energie und verliert alle aktiven Infusions",
-        "Nur der nächstgelegene Brunnen wird aktiviert"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Bei 100 Energie trinkt Vashnik aus den zwei nächstgelegenen Brunnen. Das löst deren Adds und Infection-Typen aus und gibt ihm zusätzlich einen permanenten Stapel Toxic Vapor."
-    },
-    {
-      "category": "Grundprinzip",
-      "question": "Wer kontrolliert hauptsächlich, welche beiden Brunnen Vashnik bei Imbibe auswählt?",
-      "options": [
-        "Die Heiler durch ihre Position",
-        "Die Tanks durch die Positionierung des Bosses",
-        "Die Spieler mit Adaptive Infection",
-        "Der Brunnen mit den meisten Adds"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Vashnik trinkt aus den zwei nächstgelegenen Brunnen. Deshalb steuern die Tanks durch seine Positionierung, welche Kombination als Nächstes aktiv wird."
-    },
-    {
-      "category": "Grundprinzip",
-      "question": "Welche Brunnen-Reihenfolge empfiehlt Method als Standardrotation?",
-      "options": [
-        "Blood + Fire → Blood + Shadow → Fire + Shadow",
-        "Blood + Shadow → Shadow + Fire → Fire + Blood",
-        "Shadow + Fire → Blood + Fire → Blood + Shadow",
-        "Immer denselben Brunnen zweimal hintereinander"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Die Standardrotation lautet Blood + Shadow, danach Shadow + Fire, danach Fire + Blood und dann wieder von vorn."
-    },
-    {
-      "category": "Grundprinzip",
-      "question": "Warum sollte pro Imbibe-Zyklus mindestens ein neuer Brunnen gewählt werden?",
-      "options": [
-        "Damit nicht dieselbe Infusion mehrfach gestapelt und der entsprechende Brunnen unnötig stark verstärkt wird",
-        "Damit Toxic Vapor vollständig zurückgesetzt wird",
-        "Damit die Adds ihre Laufgeschwindigkeit verlieren",
-        "Damit Adaptive Infection nicht mehr gewirkt wird"
+        "Er trinkt aus den zwei nächstgelegenen Brunnen, löst deren Adds und Infusions aus und erhält einen permanenten Toxic-Vapor-Stapel",
+        "Er beschwört ausschließlich Adds, ohne dass die Brunnen seine Fähigkeiten beeinflussen",
+        "Er trinkt aus allen drei Brunnen und setzt danach seine Energie dauerhaft auf 50",
+        "Er trinkt nur aus dem nächstgelegenen Brunnen und entfernt alle bisherigen Infusions"
       ],
       "correctAnswer": 0,
-      "explanation": "Ein Brunnen bleibt aus der vorherigen Kombination erhalten, während der andere wechselt. So vermeidet man gefährliches Mehrfachstapeln derselben Infusion."
+      "explanation": "Imbibe greift die zwei nächstgelegenen Fountains ab. Jeder Drink erzeugt deren jeweilige Effekte und erhöht zusätzlich den permanenten Raid-Druck durch Toxic Vapor."
     },
     {
-      "category": "Grundprinzip",
-      "question": "Was ist die wichtigste Add-Regel des Kampfes?",
+      "category": "Imbibe & Fountain-Rotation",
+      "question": "Wer bestimmt im Wesentlichen, welche beiden Brunnen Vashnik beim nächsten Imbibe trinkt?",
       "options": [
-        "Adds dürfen nicht gleichzeitig sterben",
-        "Alle Adds müssen sterben, bevor sie die Malignant Cavity in der Mitte erreichen",
-        "Adds müssen immer zum aktuellen Tank gebracht werden",
-        "Adds sollten möglichst lange kontrolliert werden, bevor sie getötet werden"
+        "Die Heiler durch die Reihenfolge ihrer Dispels",
+        "Die Spieler mit Adaptive Infection durch ihre Position",
+        "Der Brunnen mit den meisten noch lebenden Adds",
+        "Die Tanks, indem sie Vashnik vor 100 Energie an der richtigen Stelle positionieren"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Vashnik nimmt immer die zwei nächstgelegenen Fountains. Deshalb ist seine Position vor jedem Imbibe eine zentrale Tankaufgabe."
+    },
+    {
+      "category": "Imbibe & Fountain-Rotation",
+      "question": "Welche Fountain-Rotation empfiehlt Method als sauberen Standard?",
+      "options": [
+        "Blood + Fire → Blood + Shadow → Blood + Fire → wiederholen",
+        "Blood + Shadow → Shadow + Fire → Fire + Blood → wiederholen",
+        "Shadow + Fire → Shadow + Fire → Blood + Shadow → wiederholen",
+        "Immer dieselben zwei Fountains, damit die Mechaniken konstant bleiben"
       ],
       "correctAnswer": 1,
-      "explanation": "Alle Living-Venom-Adds laufen zur Mitte. Erreicht eines die Malignant Cavity, löst es Malignant Burst mit starkem Raid-Schaden und einem stapelnden DoT aus."
+      "explanation": "Die Standardrotation trägt jeweils einen Brunnen weiter und nimmt pro Zyklus einen neuen hinzu."
     },
     {
-      "category": "Grundprinzip",
-      "question": "Was passiert, wenn mehrere Adds die Malignant Cavity erreichen?",
+      "category": "Imbibe & Fountain-Rotation",
+      "question": "Warum wird in der empfohlenen Rotation pro Zyklus ein Brunnen gewechselt?",
       "options": [
-        "Die Effekte überschreiben sich",
-        "Die Adds verschwinden ohne weitere Folgen",
-        "Mehrere Malignant Bursts stapeln sich und führen sehr wahrscheinlich zum Wipe",
-        "Vashnik verliert Energie"
+        "Damit dieselbe Infusion nicht immer weiter gestapelt wird und die zugehörige Expulsion sowie die Adds unnötig verstärkt werden",
+        "Damit Adaptive Infection für einen Zyklus komplett aussetzt",
+        "Damit alle lebenden Adds sofort ihre Bewegungsgeschwindigkeit verlieren",
+        "Damit Toxic Vapor nach jedem zweiten Imbibe vollständig zurückgesetzt wird"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Die Fountain-Infusions halten 90 Sekunden und können stapeln. Eine saubere Rotation verhindert, dass ein Brunnen mehrfach hochgestapelt wird."
+    },
+    {
+      "category": "Imbibe & Fountain-Rotation",
+      "question": "Was bewirkt die 90 Sekunden lange Infusion eines geleerten Brunnens?",
+      "options": [
+        "Sie verstärkt die passende Fountain-Explosion und erhöht die Lebenspunkte der zugehörigen Living-Venom-Adds",
+        "Sie verhindert, dass dieser Brunnen Adaptive Infection erzeugt",
+        "Sie reduziert den Schaden der zugehörigen Adds um 50 %",
+        "Sie macht den Brunnen 90 Sekunden lang unbenutzbar"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Jede geleerte Fountain gibt Vashnik eine stapelbare Infusion, die ihren eigenen Mechanikzweig gefährlicher macht."
+    },
+    {
+      "category": "Adds & Malignant Cavity",
+      "question": "Was ist die wichtigste Regel für sämtliche Living-Venom-Adds?",
+      "options": [
+        "Sie müssen grundsätzlich direkt unter Vashnik getötet werden",
+        "Sie müssen bis zum nächsten Imbibe am Leben gehalten werden",
+        "Sie müssen alle gleichzeitig sterben",
+        "Sie müssen sterben, bevor sie die Malignant Cavity in der Mitte erreichen"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Alle Fountain-Adds bewegen sich zur Mitte. Ein durchgelassenes Add löst Malignant Burst aus."
+    },
+    {
+      "category": "Adds & Malignant Cavity",
+      "question": "Was geschieht, wenn ein Living Venom die Malignant Cavity erreicht?",
+      "options": [
+        "Das Add verschwindet ohne weitere Folgen und Vashnik erhält nur etwas Energie",
+        "Vashnik verliert einen Toxic-Vapor-Stapel",
+        "Nur der aktuelle Tank erhält einen kurzen Physical-Damage-Debuff",
+        "Malignant Burst trifft den Raid und hinterlässt einen stapelnden 30-Sekunden-DoT"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Ein einzelner Add-Leak ist bereits zusätzlicher Raid-Druck. Mehrere Leaks stapeln die Bursts und sind meist tödlich."
+    },
+    {
+      "category": "Adds & Malignant Cavity",
+      "question": "Warum sollte man Adds nicht lange für später kontrolliert stehen lassen?",
+      "options": [
+        "Nach 60 Sekunden werden sie vollständig geheilt und verdoppeln ihre Lebenspunkte",
+        "Nach 60 Sekunden macht Hardened Venom sie CC-immun und 50 % schneller",
+        "Nach 60 Sekunden explodieren sie automatisch unabhängig von ihrer Position",
+        "Nach 60 Sekunden machen sie Vashnik dauerhaft immun"
+      ],
+      "correctAnswer": 1,
+      "explanation": "CC ist bei manchen Add-Typen ein kurzfristiges Werkzeug, kein Lagerraum. Hardened Venom bestraft zu langes Aufheben."
+    },
+    {
+      "category": "Blood Fountain",
+      "question": "Was zeichnet das große Clotting Venom der Blood Fountain aus?",
+      "options": [
+        "Es kann ausschließlich durch magischen Schaden verletzt werden",
+        "Es besitzt einen Schild in Höhe von 100 % seiner HP",
+        "Es verursacht permanenten raidweiten Feuerschaden",
+        "Es ist gegen Crowd Control immun"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Sanguineous Fortitude verhindert CC. Das Blood-Add muss schlicht heruntergebrannt werden."
+    },
+    {
+      "category": "Blood Fountain",
+      "question": "Warum ist ein Clotting Venom nach seinem ersten Tod noch nicht erledigt?",
+      "options": [
+        "Es hinterlässt einen unzerstörbaren Klon am Brunnen",
+        "Es steht nach fünf Sekunden mit voller Gesundheit wieder auf",
+        "Es teilt sich in kleinere Clotting Venoms, die ebenfalls vollständig getötet werden müssen",
+        "Es wird zu einem Burning Venom"
       ],
       "correctAnswer": 2,
-      "explanation": "Jeder Add-Durchlauf erzeugt einen eigenen Malignant Burst samt 30-Sekunden-DoT. Mehrere davon gleichzeitig sind normalerweise tödlich."
-    },
-    {
-      "category": "Grundprinzip",
-      "question": "Was passiert mit Living-Venom-Adds, die länger als 60 Sekunden leben?",
-      "options": [
-        "Sie verlieren 50 % Bewegungsgeschwindigkeit",
-        "Sie werden durch Hardened Venom CC-immun und 50 % schneller",
-        "Sie teilen sich automatisch",
-        "Sie verschwinden"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Hardened Venom macht alte Adds nach 60 Sekunden CC-immun und erhöht ihre Bewegungsgeschwindigkeit um 50 %. Deshalb ist 'für später aufheben' eine ausgesprochen menschliche Fehlidee."
+      "explanation": "Splitting Clot erzeugt kleinere Ableger. Auch ein einzelnes entkommenes kleines Add kann die Mitte erreichen."
     },
     {
       "category": "Blood Fountain",
-      "question": "Was ist das Besondere an Clotting Venom vom Blood Fountain?",
+      "question": "Wie spielt man Siphoning Infection?",
       "options": [
-        "Es ist CC-immun und teilt sich beim Tod in kleinere Clotting Venoms",
-        "Es kann nur durch magischen Schaden verletzt werden",
-        "Es hinterlässt beim Tod einen Soak-Kreis",
-        "Es explodiert bei 50 % Leben"
+        "Der betroffene Spieler muss in die Malignant Cavity laufen",
+        "Der betroffene Spieler braucht andere Spieler in seinem Kreis, damit Siphon Blood ihn trotz Heilblock durch Leech wieder hochheilt",
+        "Der betroffene Spieler läuft vollständig allein an den Rand und darf niemanden berühren",
+        "Der Debuff wird sofort massdispellt"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Siphoning Infection reduziert erhaltene Heilung auf null. Die vorgesehene Lösung ist Selbstheilung über Siphon Blood an nahen Verbündeten."
+    },
+    {
+      "category": "Shadow Fountain",
+      "question": "Warum muss ein Shrouded Venom effektiv ungefähr zweimal heruntergespielt werden?",
+      "options": [
+        "Es besitzt zwei getrennte Gesundheitsbalken",
+        "Es heilt sich bei 50 % einmal vollständig",
+        "Es teilt sich beim Tod in zwei identische Adds",
+        "Miasmic Coating absorbiert zunächst Schaden in Höhe von 100 % seiner Lebenspunkte"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Vor den eigentlichen HP liegt ein Absorb in voller Höhe der Add-Gesundheit."
+    },
+    {
+      "category": "Shadow Fountain",
+      "question": "Was muss beim Töten von Shrouded Venoms zusätzlich beachtet werden?",
+      "options": [
+        "Die Umbral-Ejection-Flächen beim Tod müssen ausgewichen und möglichst kontrolliert platziert werden",
+        "Sein Tod muss mit dem zweiten Shrouded Venom exakt gleichzeitig erfolgen",
+        "Alle Spieler müssen beim Tod direkt auf dem Add stacken",
+        "Das Add muss zwingend in der Malignant Cavity sterben"
       ],
       "correctAnswer": 0,
-      "explanation": "Clotting Venom ist durch Sanguineous Fortitude gegen Crowd Control immun. Beim Tod teilt es sich, daher müssen auch alle kleineren Teile vollständig getötet werden."
-    },
-    {
-      "category": "Blood Fountain",
-      "question": "Wie wird Siphoning Infection korrekt gespielt?",
-      "options": [
-        "Betroffene Spieler laufen möglichst weit von allen anderen weg",
-        "Betroffene Spieler stehen bei anderen Spielern in ihrem Kreis, damit sie durch Siphon Blood gegen den Heilblock anheilen können",
-        "Der Debuff muss sofort massdispellt werden",
-        "Nur Tanks dürfen im Kreis stehen"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Siphoning Infection blockiert eingehende Heilung und besitzt einen großen Absorb. Der betroffene Spieler kann sich über nahe Verbündete selbst heilen, daher werden feste Melee-/Range-Camps empfohlen."
+      "explanation": "Shrouded Venoms sind CC-bar, aber ihre Death-Flächen machen unkontrolliertes Töten unnötig chaotisch."
     },
     {
       "category": "Shadow Fountain",
-      "question": "Warum wirkt Shrouded Venom besonders zäh?",
+      "question": "Wie reagiert man auf Stygian Infection?",
       "options": [
-        "Es besitzt einen Absorb in Höhe von 100 % seiner Lebenspunkte und muss effektiv zweimal heruntergespielt werden",
-        "Es wird jede Sekunde vollständig geheilt",
-        "Es ist dauerhaft immun gegen Schaden",
-        "Es teilt sich beim Tod in zwei neue Adds"
+        "Normal gegen den Heal-Absorb anheilen und mit den wiederkehrenden Stygian Bursts Abstand zu anderen halten",
+        "Sofort dispellen, weil jeder Tick raidweiten Schaden verursacht",
+        "Im Melee-Camp stacken, damit man sich gegenseitig heilt",
+        "Den Debuff absichtlich bis zum nächsten Imbibe behalten"
       ],
       "correctAnswer": 0,
-      "explanation": "Miasmic Coating absorbiert Schaden in Höhe von 100 % der Add-HP. Dadurch muss zunächst der Schild und danach das eigentliche Add getötet werden."
-    },
-    {
-      "category": "Shadow Fountain",
-      "question": "Was muss beim Tod von Shrouded Venom beachtet werden?",
-      "options": [
-        "Alle Spieler müssen direkt am Add stacken",
-        "Die entstehenden Umbral-Ejection-Flächen müssen gedodged werden",
-        "Das Add muss im Zentrum sterben",
-        "Der aktuelle Tank muss den Tod soaken"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Beim Tod entstehen gefährliche Umbral-Ejection-Flächen. Deshalb sollten Shrouded Venoms kontrolliert getötet und die Flächen ausgewichen werden."
-    },
-    {
-      "category": "Shadow Fountain",
-      "question": "Wie wird Stygian Infection gespielt?",
-      "options": [
-        "Betroffene Spieler stacken im Melee-Camp",
-        "Betroffene Spieler werden normal hochgeheilt und gehen für Stygian Burst voneinander und vom Raid weg",
-        "Der Debuff darf niemals geheilt werden",
-        "Alle Betroffenen müssen gleichzeitig dispellt werden"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Stygian Infection hat zwar einen Heal-Absorb, aber keine vollständige Heilreduktion wie Siphoning Infection. Für die wiederkehrenden Stygian Bursts müssen Betroffene Abstand halten."
+      "explanation": "Im Gegensatz zur Blood-Version ist Stygian Infection normal heilbar. Die eigentliche Positionsgefahr sind die Bursts im Umkreis."
     },
     {
       "category": "Fire Fountain",
-      "question": "Warum sind Burning Venoms hohe Priorität?",
+      "question": "Warum sind Burning Venoms besonders hohe Kill-Priorität?",
       "options": [
-        "Sie heilen Vashnik dauerhaft",
-        "Sie verursachen durch Burning Presence kontinuierlich Raid-Schaden, solange sie leben",
+        "Sie erhöhen Vashniks Energie jede Sekunde um 10",
+        "Sie verdoppeln Toxic Vapor bei jedem eigenen Angriff",
         "Sie machen alle anderen Adds unverwundbar",
-        "Sie erhöhen direkt Vashniks Energie"
+        "Burning Presence verursacht permanent raidweiten Feuerschaden, solange sie leben"
       ],
-      "correctAnswer": 1,
-      "explanation": "Burning Venoms pulsen permanent Fire-Schaden auf den Raid. Deshalb sollten sie schnell und kontrolliert getötet werden."
+      "correctAnswer": 3,
+      "explanation": "Je länger Burning Venoms leben, desto länger pulst zusätzlicher Raid-Schaden."
     },
     {
       "category": "Fire Fountain",
-      "question": "Warum sollten die beiden Burning Venoms nicht gleichzeitig sterben?",
+      "question": "Warum sollten die beiden Burning Venoms zeitversetzt sterben?",
       "options": [
-        "Ihr Tod setzt Vashniks Energie auf 100",
-        "Caustic Surge verursacht Raid-Schaden und hinterlässt auf Heroic einen stapelnden DoT",
-        "Beide würden sich sonst wiederbeleben",
-        "Sie teilen sich sonst in kleinere Adds"
+        "Gleichzeitiger Tod löst automatisch den nächsten Imbibe aus",
+        "Ihr Caustic Surge verursacht Raid-Schaden und hinterlässt auf Heroic einen stapelnden DoT",
+        "Gleichzeitiger Tod heilt Vashnik vollständig",
+        "Eines der Adds würde bei gleichzeitigem Tod wiederbelebt"
       ],
       "correctAnswer": 1,
-      "explanation": "Jeder Tod löst Caustic Surge aus. Auf Heroic hinterlässt die Explosion einen stapelnden DoT, daher werden die Kills zeitlich auseinandergezogen."
+      "explanation": "Die Death-Explosionen sollen nicht gleichzeitig beziehungsweise mit noch aktivem Stapel aufeinandergelegt werden."
     },
     {
       "category": "Fire Fountain",
-      "question": "Wie kann man die beiden Burning Venoms am einfachsten sauber nacheinander töten?",
+      "question": "Was ist eine saubere Methode, die beiden Burning Venoms zeitversetzt zu töten?",
       "options": [
-        "Eines kontrollieren und das andere fokussieren, danach das zweite töten",
-        "Beide exakt gleich cleaven",
-        "Beide bis unter 5 % bringen und gleichzeitig finishen",
-        "Eines absichtlich in die Mitte laufen lassen"
+        "Eines per CC festsetzen, das andere fokussieren und das zweite erst nach dem ersten Death-Debuff töten",
+        "Beide gleichmäßig cleaven und bei möglichst exakt demselben HP-Wert finishen",
+        "Beide ignorieren, bis Hardened Venom aktiv ist",
+        "Eines zur Malignant Cavity durchlaufen lassen"
       ],
       "correctAnswer": 0,
-      "explanation": "Fire- und Shadow-Adds sind CC-bar. Bei den Burning Venoms bietet es sich an, eines festzusetzen, das andere zu töten und das zweite erst nach Abklingen des ersten Death-Debuffs zu erledigen."
+      "explanation": "Fire-Adds sind kontrollierbar. CC schafft einen einfachen, vorhersehbaren Kill-Abstand."
     },
     {
       "category": "Fire Fountain",
-      "question": "Wie wird Exploding Infection korrekt dispellt?",
+      "question": "Wie wird Exploding Infection korrekt entfernt?",
       "options": [
-        "Alle Betroffenen gleichzeitig",
-        "Gestaffelt und nur, wenn der Raid genug Leben hat",
-        "Gar nicht",
-        "Immer während Malignant Catalyst"
+        "Dispels staffeln und warten, wenn der Raid gerade wenig Leben hat",
+        "Nur während Malignant Catalyst dispellen",
+        "Exploding Infection niemals dispellen",
+        "Alle betroffenen Spieler gleichzeitig massdispellen"
       ],
-      "correctAnswer": 1,
-      "explanation": "Beim Entfernen explodiert Exploding Infection raidweit. Dispels werden deshalb gestaffelt und bei niedrigem Raid-HP bewusst verzögert."
+      "correctAnswer": 0,
+      "explanation": "Jeder entfernte Debuff löst eine raidweite Caustic Explosion aus. Dispel-Timing ist hier die ganze Mechanik."
     },
     {
       "category": "Adaptive Infection",
-      "question": "Woran erkennst du, welche Infection-Typen als Nächstes relevant sind?",
+      "question": "Wie kannst du schon vor Adaptive Infection wissen, welche Infection-Typen gleich möglich sind?",
       "options": [
-        "An den aktuell von Vashnik aufgenommenen Fountain-Infusions",
-        "An der Anzahl lebender Adds",
-        "Am aktuellen Tank",
-        "An Vashniks verbleibendem Leben"
-      ],
-      "correctAnswer": 0,
-      "explanation": "Adaptive Infection richtet sich nach den aktiven Brunnen-Infusions. Wer weiß, welche beiden Brunnen zuletzt getrunken wurden, weiß auch, welche Infection-Reaktionen gefragt sind."
-    },
-    {
-      "category": "Standardmechaniken",
-      "question": "Wie wird Malignant Catalyst gespielt?",
-      "options": [
-        "Der gesamte Raid stackt in genau einem Kreis",
-        "Jeder Catalytic-Bile-Einschlag braucht mindestens einen Spieler in Reichweite",
-        "Alle Kreise müssen vermieden werden",
-        "Nur Heiler dürfen die Kreise soaken"
+        "An der Zahl der noch lebenden Adds",
+        "An den beiden aktuell aktiven Fountain-Infusions von Vashnik",
+        "An der Klasse des aktuellen Tanks",
+        "An Vashniks aktuellem Lebensprozentsatz"
       ],
       "correctAnswer": 1,
-      "explanation": "Jede Catalytic Bile ist ein Soft-Soak. Bleibt eine ohne Spieler in Reichweite, wird stattdessen der gesamte Raid stark getroffen."
+      "explanation": "Adaptive Infection entspricht den Brunnen, aus denen Vashnik zuletzt getrunken hat."
     },
     {
-      "category": "Standardmechaniken",
-      "question": "Wie verhältst du dich mit Plague Froth?",
+      "category": "Adaptive Infection",
+      "question": "Vashnik hat gerade Blood + Shadow aktiv. Welche zwei unterschiedlichen Reaktionen muss der Raid erwarten?",
       "options": [
-        "Zum Raid stacken und auf einen Dispel warten",
-        "Mindestens 5 Meter Abstand zu anderen halten und nach Ablauf den plusförmigen Plague Waves ausweichen",
-        "Direkt zum aktuellen Tank laufen",
-        "In eine Catalytic-Bile-Fläche stellen"
+        "Alle Betroffenen stacken gemeinsam im Melee-Camp",
+        "Siphoning-Spieler gehen allein raus und Stygian-Spieler stacken",
+        "Siphoning-Spieler brauchen Verbündete im Kreis; Stygian-Spieler gehen für ihre Bursts auseinander",
+        "Beide Infection-Typen müssen sofort gleichzeitig dispellt werden"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Blood und Shadow verlangen fast gegensätzliche Positionierung. Genau deshalb lohnt es sich, die aktive Fountain-Kombination zu lesen."
+    },
+    {
+      "category": "Malignant Catalyst",
+      "question": "Wie werden die Catalytic-Bile-Einschläge von Malignant Catalyst gespielt?",
+      "options": [
+        "Die Einschläge dürfen von niemandem berührt werden",
+        "Nur Tanks können sie sicher abfangen",
+        "Jeder Einschlag braucht mindestens einen Spieler in Reichweite",
+        "Alle Spieler müssen denselben Einschlag gemeinsam soaken"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Catalytic Bile ist ein Soft-Soak. Ein leerer Einschlag bestraft stattdessen den gesamten Raid."
+    },
+    {
+      "category": "Malignant Catalyst",
+      "question": "Was passiert, wenn eine Catalytic Bile ohne Spieler in Reichweite landet?",
+      "options": [
+        "Vashnik verliert einen Fountain-Buff",
+        "Es entsteht lediglich ein zusätzlicher Living Venom",
+        "Der gesamte Raid erhält einen deutlich stärkeren Treffer",
+        "Nur der nächstgelegene Spieler wird getroffen"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Der Sinn der Mechanik ist gerade, sämtliche Bile-Impacts mit wenigstens einer Person abzudecken."
+    },
+    {
+      "category": "Plague Froth",
+      "question": "Wie spielt ein von Plague Froth betroffener Spieler die Mechanik?",
+      "options": [
+        "Sofort im Raid stacken, damit der Schaden geteilt wird",
+        "Direkt zum Tank laufen und hinter dem Boss stehen",
+        "Mindestens 5 Meter Abstand halten und nach Ablauf die plusförmigen Plague Waves respektieren",
+        "In die Malignant Cavity gehen, damit die Waves verschwinden"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Plague Froth schädigt nahe Spieler. Nach acht Sekunden gehen vier Wellen in den Kardinalrichtungen vom Betroffenen aus."
+    },
+    {
+      "category": "Plague Froth",
+      "question": "In welcher Form breiten sich die Plague Waves nach Plague Froth aus?",
+      "options": [
+        "Als zufällige Spirale",
+        "Als Kreuz in vier feste Kardinalrichtungen",
+        "Nur in Blickrichtung des betroffenen Spielers",
+        "Als kreisförmige Welle in alle Richtungen"
       ],
       "correctAnswer": 1,
-      "explanation": "Plague Froth trifft acht Sekunden lang Spieler im Umkreis von 5 Metern. Danach schießen Plague Waves in die vier Himmelsrichtungen vom betroffenen Spieler weg."
+      "explanation": "Die feste Plus-Form macht die Wellen vorhersehbar, solange der Raid nicht auf den Achsen steht."
     },
     {
-      "category": "Standardmechaniken",
-      "question": "Was ist bei Dripping Fangs für die Tanks wichtig?",
+      "category": "Tanks",
+      "question": "Wie wird Dripping Fangs von den Tanks gespielt?",
       "options": [
-        "Nach jedem Cast wechseln",
-        "Nur alle zwei Casts wechseln",
-        "Der Offtank muss währenddessen mindestens 40 Meter entfernt stehen",
-        "Der Debuff kann einfach dispellt werden"
+        "Alle zwei Casts wechseln",
+        "Den Debuff normal dispellen lassen und weiter tanken",
+        "Nach jedem Cast hart wechseln, weil der Debuff 100 % erhöhten physischen Schaden verursacht",
+        "Beide Tanks müssen den Cast gemeinsam soaken"
       ],
-      "correctAnswer": 0,
-      "explanation": "Dripping Fangs hinterlässt 32 Sekunden lang 100 % erhöhten physischen Schaden. Method empfiehlt deshalb einen harten Tank-Swap nach jedem Cast."
-    },
-    {
-      "category": "Fountain Empowerment",
-      "question": "Was bewirkt das Trinken aus einem Brunnen zusätzlich für 90 Sekunden?",
-      "options": [
-        "Der entsprechende Brunnen wird geschwächt und seine Adds verlieren Leben",
-        "Die passende Infusion verstärkt die Explosion des Brunnens und erhöht die Lebenspunkte seiner Adds",
-        "Der Brunnen kann für 90 Sekunden nicht erneut gewählt werden",
-        "Alle Adds dieses Brunnens werden automatisch CC-immun"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Jeder geleerte Brunnen gibt Vashnik eine 90-Sekunden-Infusion. Diese verstärkt die passende Expulsion und die Lebenspunkte der zugehörigen Living-Venom-Adds."
+      "correctAnswer": 2,
+      "explanation": "Der 32-Sekunden-Debuff ist zu stark, um einen zweiten physischen Tankhit sinnvoll auf demselben Ziel zu nehmen."
     },
     {
       "category": "Soft Enrage",
-      "question": "Warum wird der Kampf mit jedem weiteren Imbibe schwieriger?",
+      "question": "Warum wird der Kampf unabhängig von einzelnen Fehlern mit der Zeit immer härter?",
       "options": [
-        "Toxic Vapor stapelt permanent raidweiten Naturschaden",
-        "Vashnik erhält pro Imbibe dauerhaft 20 % Bewegungsgeschwindigkeit",
-        "Alle Adds werden pro Imbibe sofort CC-immun",
-        "Die Malignant Cavity wird jedes Mal größer"
+        "Vashnik erhält alle 60 Sekunden automatisch 10 % Haste",
+        "Jeder Dispel erhöht dauerhaft den Schaden des Bosses",
+        "Die Malignant Cavity wächst nach jedem Add-Tod",
+        "Jeder Imbibe fügt einen permanenten Toxic-Vapor-Stapel mit zunehmendem raidweiten Naturschaden hinzu"
       ],
-      "correctAnswer": 0,
-      "explanation": "Jeder Imbibe gibt einen permanenten Toxic-Vapor-Stapel. Der Raid-Schaden tickt alle zwei Sekunden und wird im Verlauf immer stärker."
+      "correctAnswer": 3,
+      "explanation": "Toxic Vapor ist der Soft-Enrage. Es gibt keinen Reset; jede zusätzliche Imbibe-Runde erhöht den Heilbedarf bis zum Ende."
     },
     {
       "category": "Strategie",
-      "question": "Wann empfiehlt Method Heroism/Bloodlust?",
+      "question": "Was ist laut Method die beste Standardnutzung für Heroism/Bloodlust?",
       "options": [
-        "Bei 50 % Bossleben",
-        "Während des zweiten Imbibe",
         "Direkt auf Pull",
-        "Erst bei maximalen Toxic-Vapor-Stapeln"
+        "Erst unter 20 % Bossleben",
+        "Beim dritten Imbibe",
+        "Ausschließlich während Fire + Blood"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Method empfiehlt Hero/Lust auf Pull. Der Kampf besitzt keine besondere spätere Burn-Phase."
+    },
+    {
+      "category": "Strategie",
+      "question": "Was sollte der Raid tun, wenn einmal versehentlich die falsche Fountain-Kombination getrunken wurde?",
+      "options": [
+        "Ab dann dieselbe falsche Kombination dauerhaft weiterverwenden",
+        "Alle Adds ignorieren, bis die ursprüngliche Rotation wieder von selbst entsteht",
+        "Den Fehler auffangen und die Rotation danach wieder sauber herstellen; dauerhaftes Driften ist gefährlicher als ein einzelner Fehler",
+        "Sofort wipen, weil jede falsche Kombination automatisch tödlich ist"
       ],
       "correctAnswer": 2,
-      "explanation": "Method empfiehlt Hero/Lust direkt auf Pull. Der Kampf besitzt keine eigene Burn-Phase, dafür aber einen stetig ansteigenden Soft-Enrage durch Toxic Vapor."
+      "explanation": "Method beschreibt einen einzelnen falschen Drink als grundsätzlich recoverbar. Gefährlich wird es, wenn die Rotation weiter driftet und Infusions mehrfach hochgestapelt werden."
     },
     {
       "category": "Strategie",
-      "question": "Was fasst die wichtigste Spielweise gegen Vashnik am besten zusammen?",
+      "question": "Welche Zusammenfassung trifft Vashnik am besten?",
       "options": [
-        "Brunnenrotation sauber halten, Adds vor der Mitte töten und die jeweils aktive Infection korrekt spielen",
-        "Alle Adds möglichst lange kontrollieren und erst am Ende des Kampfes töten",
-        "Immer dieselben zwei Brunnen wählen, damit der Raid nur eine Mechanik lernen muss",
-        "Boss-DPS hat Vorrang vor allen Adds und Fountain-Mechaniken"
+        "Immer dieselben zwei Brunnen benutzen und sämtliche Infections gleich behandeln",
+        "Fountain-Rotation kontrollieren, alle Adds vor der Mitte töten und die aktiven Infection-Typen korrekt spielen",
+        "Boss tunneln und Adds erst nach jedem zweiten Imbibe aufräumen",
+        "Adds möglichst lange kontrollieren und den Kampf über einen späten Burn gewinnen"
       ],
-      "correctAnswer": 0,
-      "explanation": "Der Kampf wird durch kontrollierte Fountain-Rotation, konsequente Add-Kills und korrekte Reaktion auf die aktiven Infection-Typen gewonnen. Genau diese drei Dinge entscheiden den Pull."
+      "correctAnswer": 1,
+      "explanation": "Der Kampf ist im Kern ein Add-Control- und Execution-Check mit steigender permanenter Raidbelastung."
     }
   ]
 }

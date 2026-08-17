@@ -25,12 +25,12 @@
       "category": "Grundprinzip",
       "question": "Was ist die wichtigste Grundregel des gesamten Nek’zali-Kampfes?",
       "options": [
-        "Nichts darf den Soulcoil Well in der Mitte erreichen",
         "Alle Spieler müssen dauerhaft direkt am Boss stehen",
         "Der Boss darf niemals bewegt werden",
+        "Nichts darf den Soulcoil Well in der Mitte erreichen",
         "Jede Pfütze muss möglichst nah am Soulcoil Well abgelegt werden"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 2,
       "explanation": "Der Soulcoil Well ist das zentrale Element des Kampfes. Vor allem Restless Amani dürfen ihn nicht erreichen, und Spieler sollten natürlich ebenfalls nicht hineinlaufen."
     },
     {
@@ -38,8 +38,8 @@
       "question": "Wie wird Possession Barrage korrekt gespielt?",
       "options": [
         "Der aktuelle Tank steht mindestens etwa 30 Meter vom Boss entfernt und niemand steht zwischen Boss und Tank",
-        "Der gesamte Raid stackt zwischen Boss und Tank, damit die Geister aufgeteilt werden",
         "Der Tank steht direkt am Boss und alle anderen laufen mindestens 30 Meter weg",
+        "Der gesamte Raid stackt zwischen Boss und Tank, damit die Geister aufgeteilt werden",
         "Der aktuelle Tank läuft in den Soulcoil Well und der Raid stackt hinter dem Boss"
       ],
       "correctAnswer": 0,
@@ -49,36 +49,36 @@
       "category": "Phase 1",
       "question": "Wann sollte bei Hollowing Strikes ungefähr der Tank gewechselt werden?",
       "options": [
+        "Erst bei 90 % Heilungsreduktion",
         "Nach jedem einzelnen Treffer",
         "Bei ungefähr 30 bis 40 % Heilungsreduktion",
-        "Erst bei 90 % Heilungsreduktion",
         "Nur während Soulcoil Ignition"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 2,
       "explanation": "Hollowing Strikes reduziert stapelweise erhaltene Heilung und Absorbs. Method empfiehlt den Taunt-Swap ungefähr bei 30 bis 40 % Heilungsreduktion."
     },
     {
       "category": "Phase 1",
       "question": "Wie gehst du mit Essence Rend richtig um?",
       "options": [
-        "Zur Seite bewegen, dort dispellen lassen und den entstehenden Latent Cultist an einer ungefährlichen Stelle ablegen",
-        "Direkt zum Soulcoil Well laufen und den Debuff dort auslaufen lassen",
         "Unter dem Boss stehen bleiben und auf keinen Fall dispellen",
-        "Zum aktuellen Tank laufen, damit der Debuff gemeinsam mit Possession Barrage endet"
+        "Direkt zum Soulcoil Well laufen und den Debuff dort auslaufen lassen",
+        "Zum aktuellen Tank laufen, damit der Debuff gemeinsam mit Possession Barrage endet",
+        "Zur Seite bewegen, dort dispellen lassen und den entstehenden Latent Cultist an einer ungefährlichen Stelle ablegen"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 3,
       "explanation": "Nach dem Pull und Knockback bleibt ein 15-Sekunden-DoT. Wo er endet oder dispellt wird, entsteht ein Latent Cultist. Deshalb wird der Debuff kontrolliert seitlich abgelegt."
     },
     {
       "category": "Phase 1",
       "question": "Warum ist die Position der Latent Cultists schon in Phase 1 wichtig?",
       "options": [
-        "Sie bleiben als schädliche Slow-Zonen liegen und werden in Phase 2 durch Invoke erneut relevant",
+        "Sie verschwinden zwar sofort, bestimmen aber die Position der Echoes of Jawae",
         "Sie erhöhen dauerhaft den Schaden des Bosses, solange sie am Rand liegen",
-        "Sie verhindern das Erscheinen weiterer Restless Amani",
-        "Sie verschwinden zwar sofort, bestimmen aber die Position der Echoes of Jawae"
+        "Sie bleiben als schädliche Slow-Zonen liegen und werden in Phase 2 durch Invoke erneut relevant",
+        "Sie verhindern das Erscheinen weiterer Restless Amani"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 2,
       "explanation": "Latent Cultists explodieren beim Erscheinen, bleiben danach als schädliche Slow-Zonen liegen und repositionieren sich später durch Invoke um den Well."
     },
     {
@@ -86,9 +86,9 @@
       "question": "Wie werden Restless Amani gestoppt?",
       "options": [
         "Zuerst den Gravebound-Advance-Schild mit magischem Schaden brechen, danach das Add kontrollieren und töten",
-        "Nur mit physischem Schaden auf den Schild schlagen, bis das Add automatisch stehen bleibt",
         "Das Add bis zum Soulcoil Well laufen lassen und dort unterbrechen",
-        "Einen offensiven Dispel auf das Add benutzen und es anschließend ignorieren"
+        "Einen offensiven Dispel auf das Add benutzen und es anschließend ignorieren",
+        "Nur mit physischem Schaden auf den Schild schlagen, bis das Add automatisch stehen bleibt"
       ],
       "correctAnswer": 0,
       "explanation": "Solange Gravebound Advance aktiv ist, kann der Amani weder sterben noch gestoppt werden. Der Schild absorbiert magischen Schaden und muss zuerst gebrochen werden."
@@ -97,12 +97,12 @@
       "category": "Phase 1",
       "question": "Was passiert, wenn ein Restless Amani den Soulcoil Well erreicht?",
       "options": [
-        "Nek’zali erhält 5 Energie und Soulcoil Rite trifft den gesamten Raid",
         "Der Boss verliert 5 Energie und das Add verschwindet",
         "Nur der aktuelle Tank erhält einen zusätzlichen DoT",
-        "Der Add verwandelt sich sofort in ein Echo of Jawae"
+        "Der Add verwandelt sich sofort in ein Echo of Jawae",
+        "Nek’zali erhält 5 Energie und Soulcoil Rite trifft den gesamten Raid"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 3,
       "explanation": "Jeder Amani im Well gibt Nek’zali 5 Energie und löst Soulcoil Rite aus, also Raid-Schaden plus einen stapelnden DoT."
     },
     {
@@ -110,8 +110,8 @@
       "question": "Warum sind mehrere Soulcoil Rites kurz hintereinander besonders gefährlich?",
       "options": [
         "Ritual Burn erhöht auf Heroic den Schaden nachfolgender Rites und stapelt sich",
-        "Jeder Rite macht Nek’zali für 10 Sekunden unangreifbar",
         "Nach zwei Rites verlieren alle Spieler ihre Dispels",
+        "Jeder Rite macht Nek’zali für 10 Sekunden unangreifbar",
         "Soulcoil Rite heilt jeden noch lebenden Restless Amani vollständig"
       ],
       "correctAnswer": 0,
@@ -122,8 +122,8 @@
       "question": "Was hinterlassen Restless Amani auf Heroic nach ihrem Tod und warum ist das relevant?",
       "options": [
         "Vessels of Awakening, die während der Intermission wiederbesetzt und als verstärkte Adds zurückkehren können",
-        "Heilende Kugeln, die für Soulcoil Ignition aufgehoben werden sollten",
         "Latent Cultists, die in Phase 2 den Boss heilen",
+        "Heilende Kugeln, die für Soulcoil Ignition aufgehoben werden sollten",
         "Portale, aus denen später die Echoes of Jawae erscheinen"
       ],
       "correctAnswer": 0,
@@ -135,8 +135,8 @@
       "options": [
         "Mit möglichst null Ritual-Burn-Stapeln hineingehen, Heil-Cooldowns nutzen und den Anguished-Echoes-Kreisen ausweichen",
         "Mehrere Ritual-Burn-Stapel sammeln, damit die vier Rites schneller enden",
-        "Alle Spieler in den Soulcoil Well stellen und persönliche Defensives sparen",
-        "Die Restless Amani absichtlich durchlassen, damit Nek’zalis Energie während des Channels sinkt"
+        "Die Restless Amani absichtlich durchlassen, damit Nek’zalis Energie während des Channels sinkt",
+        "Alle Spieler in den Soulcoil Well stellen und persönliche Defensives sparen"
       ],
       "correctAnswer": 0,
       "explanation": "Soulcoil Ignition löst vier Soulcoil Rites hintereinander aus. Das ist der große planbare Healing-Check; Ritual Burn sollte vorher abgelaufen sein und die Anguished-Echoes-Einschläge müssen gedodged werden."
@@ -145,48 +145,48 @@
       "category": "Grundprinzip",
       "question": "Was geschieht, wenn Nek’zali 100 Energie erreicht?",
       "options": [
-        "Uncoiled Rage wird ausgelöst und sie enraged",
         "Die Intermission startet automatisch",
+        "Nek’zali verliert ihre Phase-1-Fähigkeiten",
         "Alle Restless Amani verschwinden",
-        "Nek’zali verliert ihre Phase-1-Fähigkeiten"
+        "Uncoiled Rage wird ausgelöst und sie enraged"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 3,
       "explanation": "Bei voller Energie erhält Nek’zali durch Uncoiled Rage massive Schadens-, Angriffs- und Bewegungsgeschwindigkeitsboni sowie Taunt-Immunität. Das ist der Enrage."
     },
     {
       "category": "Intermission",
       "question": "Wann beginnt die Intermission und was passiert mit Nek’zali?",
       "options": [
+        "Sobald der erste Restless Amani stirbt, wird sie immun",
         "Bei 50 % Leben zieht sie sich zum Well zurück und wird durch die Echoes of Jawae immun",
-        "Bei 75 % Leben verlässt sie die Arena für 30 Sekunden",
         "Bei 25 % Leben wird sie verwundbarer und verliert ihre Energie",
-        "Sobald der erste Restless Amani stirbt, wird sie immun"
+        "Bei 75 % Leben verlässt sie die Arena für 30 Sekunden"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "Bei 50 % Bossleben beginnt Ritual of Awakening. Nek’zali zieht sich zum Well zurück und bleibt immun, solange die Echoes of Jawae sie über ihre Tethers schützen."
     },
     {
       "category": "Intermission",
       "question": "Wie wird Soul Transfer in der Intermission gespielt?",
       "options": [
+        "Den Strahl gezielt über möglichst viele Leichen ziehen",
         "Aus dem betroffenen Strahlbereich herausgehen, bevor der 15-Sekunden-Channel endet",
         "Mit dem gesamten Raid in den Strahl stacken und den Schaden teilen",
-        "Den Cast mit einem normalen Interrupt abbrechen",
-        "Den Strahl gezielt über möglichst viele Leichen ziehen"
+        "Den Cast mit einem normalen Interrupt abbrechen"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "Soul Transfer wird 15 Sekunden kanalisiert und detoniert anschließend im markierten Bereich. Beim Ende des Channels darf dort niemand mehr stehen."
     },
     {
       "category": "Intermission",
       "question": "Wie funktioniert Hungering Pyre und wofür sollte der Soak genutzt werden?",
       "options": [
-        "Der Schaden wird im Kreis geteilt und der Kreis kann gleichzeitig auf Leichen gelegt werden, um sie zu verbrennen",
-        "Nur der aktuelle Tank darf den Kreis soaken und Leichen müssen ausdrücklich vermieden werden",
+        "Der Kreis ist eine reine Ausweichmechanik und darf von niemandem betreten werden",
         "Der Kreis muss in den Soulcoil Well getragen werden, damit Nek’zali Energie verliert",
-        "Der Kreis ist eine reine Ausweichmechanik und darf von niemandem betreten werden"
+        "Der Schaden wird im Kreis geteilt und der Kreis kann gleichzeitig auf Leichen gelegt werden, um sie zu verbrennen",
+        "Nur der aktuelle Tank darf den Kreis soaken und Leichen müssen ausdrücklich vermieden werden"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 2,
       "explanation": "Hungering Pyre ist ein Gruppensoak. Auf Heroic kann der Pyre dabei Vessels beziehungsweise Leichen beseitigen, weshalb der Soak bewusst über ihnen positioniert werden sollte."
     },
     {
@@ -195,8 +195,8 @@
       "options": [
         "Sie erhalten Slithering Flame und können damit ebenfalls gezielt Leichen verbrennen",
         "Sie erhalten Hollowing Strikes und müssen zum anderen Tank laufen",
-        "Sie werden sofort zum Soulcoil Well gezogen",
-        "Sie verlieren für den Rest der Intermission sämtliche Fähigkeiten"
+        "Sie verlieren für den Rest der Intermission sämtliche Fähigkeiten",
+        "Sie werden sofort zum Soulcoil Well gezogen"
       ],
       "correctAnswer": 0,
       "explanation": "Nicht-Soaker werden von Slithering Flame verfolgt. Beim Auslaufen entsteht Cremation, womit Leichen und nahe Amani verbrannt werden können."
@@ -205,36 +205,36 @@
       "category": "Intermission",
       "question": "Warum ist das Verbrennen möglichst vieler Leichen in der Intermission so wichtig?",
       "options": [
-        "Wiedererweckte Amani kommen verstärkt zurück und verursachen zusätzlichen Druck auf den Raid",
         "Jede liegengebliebene Leiche erhöht sofort Nek’zalis Energie um 20",
         "Ohne vollständige Leichenbeseitigung bleiben die Echoes of Jawae unangreifbar",
-        "Die Leichen blockieren sonst dauerhaft sämtliche Dispels des Raids"
+        "Die Leichen blockieren sonst dauerhaft sämtliche Dispels des Raids",
+        "Wiedererweckte Amani kommen verstärkt zurück und verursachen zusätzlichen Druck auf den Raid"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 3,
       "explanation": "Vessels of Awakening können erneut besessen werden. Wiedererweckte Amani sind verstärkt und besitzen eine starke pulsierende Aura, daher erleichtert gründliches Aufräumen die Intermission deutlich."
     },
     {
       "category": "Intermission",
       "question": "Wie endet die Intermission?",
       "options": [
-        "Beide Echoes of Jawae werden getötet und ihre Tethers zu Nek’zali dadurch getrennt",
         "Alle Vessels of Awakening müssen gleichzeitig zerstört werden",
+        "Beide Echoes of Jawae werden getötet und ihre Tethers zu Nek’zali dadurch getrennt",
         "Nek’zali muss während ihrer Immunität auf 40 % Leben gebracht werden",
         "Der Raid muss zwei Soulcoil Ignitions überleben"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "Die beiden Echoes halten Nek’zali über Tethers immun. Sind beide tot, werden die Verbindungen getrennt und Phase 2 beginnt."
     },
     {
       "category": "Phase 2",
       "question": "Was macht Uncoiling in Phase 2 so gefährlich?",
       "options": [
-        "Es verursacht für den Rest des Kampfes fortlaufend raidweiten Schattenschaden und wirkt damit wie ein Soft-Enrage",
-        "Es macht sämtliche Restless Amani dauerhaft immun gegen Schaden",
+        "Es verhindert für den Rest des Kampfes sämtliche Heilung",
         "Es setzt Nek’zalis Energie sofort auf 100",
-        "Es verhindert für den Rest des Kampfes sämtliche Heilung"
+        "Es macht sämtliche Restless Amani dauerhaft immun gegen Schaden",
+        "Es verursacht für den Rest des Kampfes fortlaufend raidweiten Schattenschaden und wirkt damit wie ein Soft-Enrage"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 3,
       "explanation": "Uncoiling tickt bis zum Tod des Bosses kontinuierlich auf den gesamten Raid. Dadurch wird Phase 2 zu einem Rennen gegen die Zeit."
     },
     {
@@ -242,8 +242,8 @@
       "question": "Was passiert nach Invoke mit den Latent Cultists aus Phase 1?",
       "options": [
         "Sie repositionieren sich durch Entwined Step um den Soulcoil Well und müssen gedodged werden",
-        "Sie verschwinden vollständig und spielen keine Rolle mehr",
         "Sie verwandeln sich in Restless Amani",
+        "Sie verschwinden vollständig und spielen keine Rolle mehr",
         "Sie werden automatisch zum Eingang teleportiert und dort zerstört"
       ],
       "correctAnswer": 0,
@@ -253,24 +253,24 @@
       "category": "Phase 2",
       "question": "Welche Phase-1-Mechaniken bleiben in Phase 2 grundsätzlich erhalten?",
       "options": [
+        "Nur Restless Amani bleiben erhalten, alle Bossfähigkeiten entfallen",
         "Unter anderem Essence Rend, Hollowing Strikes, Possession Barrage sowie die Soulcoil- und Ritual-Burn-Mechaniken",
         "Keine; Phase 2 ersetzt sämtliche bisherigen Mechaniken",
-        "Nur Hollowing Strikes bleibt erhalten",
-        "Nur Restless Amani bleiben erhalten, alle Bossfähigkeiten entfallen"
+        "Nur Hollowing Strikes bleibt erhalten"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "Phase 2 legt zusätzlichen Dauerschaden und Invoke auf den bestehenden Kampf. Die wesentlichen Mechaniken aus Phase 1 funktionieren weiterhin."
     },
     {
       "category": "Phase 2",
       "question": "Wann empfiehlt Method Heroism/Bloodlust für Nek’zali?",
       "options": [
-        "In Phase 2",
         "Direkt beim Pull",
-        "Zu Beginn der Intermission",
-        "Erst nachdem Nek’zali 100 Energie erreicht hat"
+        "In Phase 2",
+        "Erst nachdem Nek’zali 100 Energie erreicht hat",
+        "Zu Beginn der Intermission"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": "Hero/Lust wird für Phase 2 empfohlen, um den Boss während des zunehmenden Raid-Schadens und Add-Drucks möglichst schnell zu töten."
     },
     {
@@ -278,9 +278,9 @@
       "question": "Was ist in Phase 2 der grundlegende Plan für den Raid?",
       "options": [
         "Weiter Adds und Mechaniken kontrollieren, aber Nek’zali mit Cooldowns töten, bevor 100 Energie oder der steigende Druck den Raid überrollen",
-        "Den Boss vollständig ignorieren und ausschließlich Restless Amani töten",
+        "Möglichst viele Adds in den Soulcoil Well lassen, damit Phase 2 schneller endet",
         "Auf eine zweite Intermission warten und alle offensiven Cooldowns dafür sparen",
-        "Möglichst viele Adds in den Soulcoil Well lassen, damit Phase 2 schneller endet"
+        "Den Boss vollständig ignorieren und ausschließlich Restless Amani töten"
       ],
       "correctAnswer": 0,
       "explanation": "Phase 2 ist der Burn. Die bisherigen Mechaniken laufen weiter, Adds müssen kontrolliert werden und gleichzeitig muss Nek’zali sterben, bevor Energie und Uncoiling den Versuch beenden."
