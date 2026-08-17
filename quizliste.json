@@ -1,12 +1,8 @@
 {
   "quizzes": [
     {
-      "name": "Midnight Falls – Mythic L’ura",
-      "file": "Well_Played_Midnight_Falls_Lura.json"
-    },
-    {
-      "name": "Mythic Belo’ren – Post Nerf",
-      "file": "Well_Played_Mythic_Beloren_Post_Nerf.json"
+      "name": "The Venomous Abyss – Heroic Nek’zali",
+      "file": "Well_Played_Heroic_Nekzali_the_Soulcoiler.json"
     }
   ]
 }
