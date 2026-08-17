@@ -1,0 +1,313 @@
+{
+  "schemaVersion": 3,
+  "branding": {
+    "guildName": "Well Played",
+    "appTitle": "Well Played Raid-Quiz",
+    "appSubtitle": "Gildenquiz für Raidguides",
+    "headerLogoText": "WP",
+    "bannerTitle": "Well Played",
+    "bannerSubtitle": "Guild Quiz",
+    "bannerGuideFallback": "Wähle einen Raidguide aus",
+    "accentColor": "#d6a24a",
+    "accentColor2": "#36b5ff",
+    "accentColor3": "#7b4dff"
+  },
+  "quiz": {
+    "guideName": "The Venomous Abyss – Heroic Sszorak Guide",
+    "pageTitle": "Heroic Sszorak Quiz",
+    "headerTitle": "The Venomous Abyss – Heroic Sszorak",
+    "headerSubtitle": "Interaktives Mechanik-Quiz",
+    "startTitle": "Hast du Sszorak verstanden?",
+    "description": "24 Fragen zu Apex Predator, Soak-Gruppen, Venomous Surge, Viscous Cysts, Raging Crosswinds und Howling Maelstrom."
+  },
+  "questions": [
+    {
+      "category": "Grundprinzip",
+      "question": "Wie ist der grundlegende Ablauf des Kampfes vor jeder Intermission?",
+      "options": [
+        "Apex Predator → Venomous Surge → Raging Crosswinds, zweimal hintereinander",
+        "Venomous Surge → Intermission → Apex Predator",
+        "Raging Crosswinds → Apex Predator → Intermission",
+        "Apex Predator wird einmal gespielt und danach beginnt sofort die Intermission"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Der Kampf läuft in einem festen Loop: Apex Predator, Venomous Surge und Raging Crosswinds. Dieser Ablauf wird zweimal gespielt, danach beginnt bei 100 Energie die Intermission."
+    },
+    {
+      "category": "Grundprinzip",
+      "question": "Warum werden vor dem Pull zwei feste Soak-Gruppen gebildet?",
+      "options": [
+        "Damit die beiden Mutilates abwechselnd von unterschiedlichen Gruppen genommen werden",
+        "Damit jede Gruppe einen eigenen Windkanal bekommt",
+        "Damit beide Tanks dauerhaft eine eigene Gruppe haben",
+        "Damit Raging Crosswinds nur eine Gruppe betrifft"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mutilate hinterlässt einen Debuff, der den Schaden des nächsten Mutilate massiv erhöht. Deshalb soak't Gruppe 1 den ersten und Gruppe 2 den zweiten."
+    },
+    {
+      "category": "Grundprinzip",
+      "question": "Wie viele Spieler sollten laut Method mindestens in jeder Mutilate-Soak-Gruppe stehen?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "8"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Mutilate benötigt mindestens fünf Spieler im Frontal. Mit weniger als fünf Soakern verursacht die Fähigkeit tödlichen Zusatzschaden."
+    },
+    {
+      "category": "Apex Predator",
+      "question": "Woraus besteht die fünfteilige Apex-Predator-Kombo?",
+      "options": [
+        "2× Ravage, 2× Mutilate und 1× Tempest in zufälliger Reihenfolge",
+        "3× Ravage und 2× Tempest",
+        "2× Mutilate und 3× Venomous Surge",
+        "1× Ravage, 1× Mutilate und 3× Caustic Claws"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Apex Predator kombiniert zwei Ravages, zwei Mutilates und einen Tempest. Die Reihenfolge ist zufällig, daher müssen Tanks und Soak-Gruppen auf den jeweiligen Cast reagieren."
+    },
+    {
+      "category": "Apex Predator",
+      "question": "Wie wird Ravage korrekt gespielt?",
+      "options": [
+        "Der aktuelle Tank nimmt das Frontal am Rand und die Tanks wechseln zwischen den beiden Ravage-Casts",
+        "Der gesamte Raid soak't das Frontal",
+        "Beide Tanks stehen gemeinsam vor dem Boss",
+        "Ravage wird immer von der nächsten Mutilate-Gruppe übernommen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ravage ist der Tank-Frontal. Er verursacht massiven Schaden und erhöht den Schaden des nächsten Ravage für 25 Sekunden um 400 %, deshalb müssen die Tanks zwischen den beiden Casts wechseln."
+    },
+    {
+      "category": "Apex Predator",
+      "question": "Was ist die wichtigste Regel für Mutilate?",
+      "options": [
+        "Mindestens fünf Spieler soak'en und dieselbe Gruppe nimmt niemals beide Mutilates",
+        "Nur der aktuelle Tank darf im Frontal stehen",
+        "Beide Soak-Gruppen stehen bei jedem Cast gemeinsam im Frontal",
+        "Mutilate muss unterbrochen werden"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mutilate teilt den Schaden zwischen den Soakern und braucht mindestens fünf Spieler. Der Mutilated-Gash-Debuff erhöht den Schaden des nächsten Mutilate um 500 %, deshalb wird abgewechselt."
+    },
+    {
+      "category": "Apex Predator",
+      "question": "Wie wird Tempest behandelt?",
+      "options": [
+        "Den herumwandernden Tornados ausweichen",
+        "Die Tornados mit mindestens fünf Spielern soaken",
+        "Den Boss in einen Tornado ziehen",
+        "Die Tornados absichtlich berühren, um Windresistenz zu erhalten"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Tempest erzeugt wandernde Windwirbel. Berührung verursacht Schaden, DoT und Slow. Sie sind reine Ausweichmechanik."
+    },
+    {
+      "category": "Apex Predator",
+      "question": "Wohin zielen die Frontal-Angriffe der Apex-Predator-Kombo?",
+      "options": [
+        "Auf den aktuellen Tank",
+        "Immer auf die größte Spielergruppe",
+        "Auf einen zufälligen Heiler",
+        "Auf die Mitte der Arena"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Die Kegel richten sich nach dem aktuellen Tank. Deshalb können die Tanks den Boss auch während der Kombo hin- und hertaunten und die Frontals kontrollieren."
+    },
+    {
+      "category": "Tanks",
+      "question": "Was bewirkt Corroding Venom durch Sszoraks normale Nahkampfangriffe?",
+      "options": [
+        "Pro Treffer 3 % erhöhten erlittenen physischen Schaden auf dem Tank",
+        "Pro Treffer 3 % weniger erhaltene Heilung",
+        "Pro Treffer 10 % erhöhten Naturschaden auf dem Raid",
+        "Es setzt den Ravage-Debuff zurück"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Corroding Venom stapelt mit jedem Melee-Hit 3 % erhöhten physischen Schaden auf dem aktuellen Tank und verstärkt damit nach und nach andere physische Treffer."
+    },
+    {
+      "category": "Venomous Surge",
+      "question": "Wie verhalten sich Spieler, die von Venomous Surge markiert werden?",
+      "options": [
+        "Sie laufen vom Raid weg und platzieren ihre Viscous Cyst bewusst am vorgesehenen Marker",
+        "Sie stacken direkt unter dem Boss",
+        "Sie laufen in die Mitte und lassen den Debuff dort auslaufen",
+        "Sie bleiben stehen, weil nur der aktuelle Tank betroffen wird"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Nach 10 Sekunden detoniert Venomous Surge raidweit mit Distanz-Falloff und erzeugt am Standort des Spielers eine Viscous Cyst. Die Position ist für die Intermission entscheidend."
+    },
+    {
+      "category": "Venomous Surge",
+      "question": "Wo müssen die Viscous Cysts für die Intermission platziert werden?",
+      "options": [
+        "An den Markern gegenüber den Windtunneln, die später aktiv werden",
+        "Direkt vor dem jeweiligen Windtunnel",
+        "Alle gemeinsam in der Mitte",
+        "Immer direkt hinter dem Boss"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Die Cysts werden auf der gegenüberliegenden Seite der aktiven Tunnel abgelegt, damit der Wind den Raid später genau in die passende Cyst schiebt."
+    },
+    {
+      "category": "Venomous Surge",
+      "question": "Wie erkennt man schon vor der Intermission die Reihenfolge der drei aktiven Windtunnel?",
+      "options": [
+        "An den weißen Orbs im Tunnel: 1 Orb = erster Wind, 2 = zweiter, 3 = dritter",
+        "An der Farbe der Tunnel",
+        "An der Position des Bosses",
+        "Die Reihenfolge ist vollständig zufällig und vorher nicht sichtbar"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Die aktiven Tunnel sind mit weißen Orbs markiert. Die Anzahl zeigt direkt die spätere Reihenfolge an."
+    },
+    {
+      "category": "Venomous Surge",
+      "question": "Warum gibt es vor jeder Intermission genau einen Cyst als Fehlertoleranz?",
+      "options": [
+        "Es entstehen vier Cysts, aber nur drei Windstöße müssen damit abgefangen werden",
+        "Eine Cyst verschwindet automatisch beim Start der Intermission",
+        "Der vierte Windstoß ist immer harmlos",
+        "Eine Cyst wird zwingend für Mutilate verbraucht"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vor jeder Intermission entstehen vier Cysts, während nur drei Windkanäle feuern. Eine falsch platzierte Cyst ist also noch reparierbar, zwei normalerweise nicht."
+    },
+    {
+      "category": "Viscous Cyst",
+      "question": "Was passiert, wenn eine Viscous Cyst ausgelöst wird?",
+      "options": [
+        "Sie stößt nahe Spieler zurück und gibt ihnen einen Effekt, der sie widerstandsfähiger gegen den Wind macht",
+        "Sie zieht alle Spieler zu sich",
+        "Sie macht den Boss für 30 Sekunden immun",
+        "Sie entfernt sämtliche Tank-Debuffs"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Die Cyst verursacht einen Knockback und überzieht Spieler mit Toxin. Genau dieser Effekt hilft anschließend, dem Wind der Intermission zu widerstehen."
+    },
+    {
+      "category": "Venomous Surge",
+      "question": "Wie wird Caustic Claws gespielt?",
+      "options": [
+        "Einschlägen und Pfützen ausweichen und den Boss anschließend in einen freien Bereich weiterziehen",
+        "Die Pfützen sammeln, damit sie während der Intermission Windresistenz geben",
+        "Alle Spieler stacken in der ersten Pfütze",
+        "Nur Tanks müssen den Einschlägen ausweichen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Caustic Claws erzeugt gefährliche Einschläge und Caustic Residue. Nach dem Cast wird Sszorak in einen sauberen Abschnitt der Arena bewegt."
+    },
+    {
+      "category": "Raging Crosswinds",
+      "question": "Was sollten von Raging Crosswinds betroffene Spieler zunächst tun?",
+      "options": [
+        "Sich voneinander entfernen, da der Effekt vor dem Launch Spieler innerhalb von 6 Metern trifft",
+        "Sofort alle auf einem Punkt stacken",
+        "Zum aktuellen Tank laufen",
+        "In eine Viscous Cyst laufen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vor dem eigentlichen Flug verursacht Raging Crosswinds Schaden um die markierten Spieler. Deshalb wird zunächst Abstand gehalten."
+    },
+    {
+      "category": "Raging Crosswinds",
+      "question": "Wie beendet man Turbulent Gusts nach dem Launch möglichst schnell?",
+      "options": [
+        "Mit einem anderen schwebenden Spieler in der Luft kollidieren",
+        "Eine Viscous Cyst aus der Luft anklicken",
+        "Den Boden mit einer Immunity erreichen",
+        "Direkt in einen Tornado fliegen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Berühren sich zwei schwebende Spieler, werden ihre Turbulent Gusts entfernt und beide fallen zurück auf den Boden."
+    },
+    {
+      "category": "Raging Crosswinds",
+      "question": "Wie genau müssen die Pfeile zweier Crosswinds-Spieler aufeinander ausgerichtet sein?",
+      "options": [
+        "Nicht pixelgenau; es reicht, wenn sich die großen Kreise während des Flugs berühren",
+        "Die Pfeilspitzen müssen exakt denselben Pixel treffen",
+        "Beide Pfeile müssen in die Mitte zeigen",
+        "Die Pfeile spielen keine Rolle"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Die Kollisionsreichweite ist großzügig. Es genügt, die Flugrichtungen so auszurichten, dass sich die Kreise in der Luft treffen."
+    },
+    {
+      "category": "Raging Crosswinds",
+      "question": "Warum können Knockback-Immunities bei Raging Crosswinds problematisch sein?",
+      "options": [
+        "Man kann damit den vorgesehenen Kollisionspartner allein in die Luft schicken und ihn gefährden",
+        "Sie verdoppeln automatisch den Raid-Schaden",
+        "Sie lösen sofort eine Viscous Cyst aus",
+        "Sie machen den nächsten Windkanal stärker"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Wenn dein Partner auf die Kollision mit dir angewiesen ist und du deinen Launch verhinderst, bleibt er allein schwebend zurück. Solche Immunities müssen daher abgesprochen werden."
+    },
+    {
+      "category": "Intermission",
+      "question": "Was ist zu Beginn der Howling-Maelstrom-Intermission die wichtigste Positionierungsregel?",
+      "options": [
+        "Der gesamte Raid steht möglichst exakt gestackt in der Mitte",
+        "Die zwei Soak-Gruppen stehen an gegenüberliegenden Rändern",
+        "Alle verteilen sich gleichmäßig auf die sechs Tunnel",
+        "Nur die Tanks stehen in der Mitte"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Der Raid muss pixelnah in der Mitte stacken. So werden alle vom Wind auf derselben Linie in die vorbereitete Cyst geschoben."
+    },
+    {
+      "category": "Intermission",
+      "question": "Wie funktioniert das Zusammenspiel aus Wind und Viscous Cyst in der Intermission?",
+      "options": [
+        "Der Wind schiebt den gestackten Raid in die gegenüberliegende Cyst, deren Knockback ihn zurück zum Boss stößt und Windresistenz gibt",
+        "Der Raid läuft gegen den Wind direkt zum Tunnel",
+        "Die Cyst wird vor jedem Wind manuell vom Tank ausgelöst",
+        "Die Cyst zieht den Raid automatisch in die Mitte"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Genau dafür wurden die Cysts vorher platziert: Wind hinaus, Cyst-Knockback zurück, anschließend mit Windresistenz weiter Schaden machen."
+    },
+    {
+      "category": "Intermission",
+      "question": "Was macht Dig In während der Intermission für den Schaden interessant?",
+      "options": [
+        "Sszorak erleidet 30 % erhöhten Schaden",
+        "Sszorak erleidet 30 % weniger Schaden",
+        "Alle Spieler erhalten 30 % mehr Bewegungsgeschwindigkeit",
+        "Sszorak verliert seine gesamte Rüstung"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Während Howling Maelstrom nimmt Sszorak durch Dig In 30 % mehr Schaden. Das ist die große Burn-Möglichkeit des Kampfes."
+    },
+    {
+      "category": "Intermission",
+      "question": "Was geschieht nach dem dritten Windstoß mit der übrig gebliebenen Fail-Safe-Cyst?",
+      "options": [
+        "Der Raid geht gemeinsam hin und löst sie kontrolliert aus, bevor sie später automatisch platzt",
+        "Sie bleibt für die nächste Intermission liegen",
+        "Nur ein Tank darf sie auslösen",
+        "Sie verschwindet sofort von selbst"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Nach den drei vorgesehenen Winds wird die vierte Cyst bewusst gemeinsam ausgelöst, damit die Arena für den nächsten Loop wieder sauber ist."
+    },
+    {
+      "category": "Strategie",
+      "question": "Welche Heroism/Bloodlust-Nutzung empfiehlt Method als Standard?",
+      "options": [
+        "Auf Pull; alternativ kann man mit dem 30-%-Damage-Amp der Intermission experimentieren",
+        "Ausschließlich in der dritten Intermission",
+        "Immer direkt nach dem zweiten Mutilate",
+        "Heroism wird bei diesem Boss nicht empfohlen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Method empfiehlt Hero/Lust grundsätzlich auf Pull. Ein Einsatz während Dig In kann ebenfalls sinnvoll sein, wenn der Raid die Intermission sauber spielt."
+    }
+  ]
+}

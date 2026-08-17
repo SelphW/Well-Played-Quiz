@@ -15,6 +15,10 @@
     {
       "name": "The Venomous Abyss – Heroic Vashnik the Malignant",
       "file": "Well_Played_Heroic_Vashnik_the_Malignant.json"
+    },
+    {
+      "name": "The Venomous Abyss – Heroic Sszorak",
+      "file": "Well_Played_Heroic_Sszorak.json"
     }
   ]
 }
