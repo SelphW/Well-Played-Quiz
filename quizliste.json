@@ -19,6 +19,10 @@
     {
       "name": "The Venomous Abyss – Heroic Sszorak",
       "file": "Well_Played_Heroic_Sszorak.json"
+    },
+    {
+      "name": "The Venomous Abyss – Heroic The Twin Fangs",
+      "file": "Well_Played_Heroic_The_Twin_Fangs.json"
     }
   ]
 }

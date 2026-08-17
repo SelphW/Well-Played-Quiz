@@ -1,0 +1,433 @@
+{
+  "schemaVersion": 3,
+  "branding": {
+    "guildName": "Well Played",
+    "appTitle": "Well Played Raid-Quiz",
+    "appSubtitle": "Gildenquiz für Raidguides",
+    "headerLogoText": "WP",
+    "bannerTitle": "Well Played",
+    "bannerSubtitle": "Guild Quiz",
+    "bannerGuideFallback": "Wähle einen Raidguide aus",
+    "accentColor": "#d6a24a",
+    "accentColor2": "#36b5ff",
+    "accentColor3": "#7b4dff"
+  },
+  "quiz": {
+    "guideName": "The Venomous Abyss – Heroic The Twin Fangs Guide",
+    "pageTitle": "Heroic The Twin Fangs Quiz",
+    "headerTitle": "The Venomous Abyss – Heroic The Twin Fangs",
+    "headerSubtitle": "Interaktives Mechanik-Quiz",
+    "startTitle": "Hast du die Twin Fangs verstanden?",
+    "description": "34 Fragen zu Eternal Venom, Vexhul, Ithraz, Caustic Globules, Ravenous Feast, Tankwechseln, Submerge und dem Enrage."
+  },
+  "questions": [
+    {
+      "category": "Grundprinzip",
+      "question": "Was ist die zentrale Ressourcenmechanik des gesamten Kampfes?",
+      "options": [
+        "Ein gemeinsamer Energiepool der beiden Bosse",
+        "Ein Schild, der regelmäßig vollständig entfernt werden muss",
+        "Eternal Venom: permanente Stapel sammeln sich an und müssen möglichst niedrig gehalten werden",
+        "Eine wechselnde Feuer- und Frostleiste"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Eternal Venom ist der Kern des Encounters. Die Stapel laufen nicht von allein aus und bestimmen, wie viele weitere Fehler sich ein Spieler noch leisten kann."
+    },
+    {
+      "category": "Eternal Venom",
+      "question": "Was passiert bei 10 Stapeln Eternal Venom?",
+      "options": [
+        "Der Spieler stirbt sofort",
+        "Der Stapelzähler wird auf 0 zurückgesetzt",
+        "Der Spieler erhält 100 % Heilungsreduktion",
+        "Der Spieler wird für 10 Sekunden betäubt"
+      ],
+      "correctAnswer": 0,
+      "explanation": "10 Stapel sind kein 'sehr hoher Schaden', sondern schlicht Tod."
+    },
+    {
+      "category": "Eternal Venom",
+      "question": "Welche Aussage über Eternal-Venom-Stapel ist richtig?",
+      "options": [
+        "Stapel laufen nach 30 Sekunden automatisch aus",
+        "Alle Stapel können vollständig vermieden werden",
+        "Einige Stapel sind unvermeidbar, deshalb sollte man vermeidbare grüne Treffer konsequent verhindern",
+        "Nur Tanks können Eternal Venom erhalten"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Venomous Emergence gibt beispielsweise dem gesamten Raid unvermeidbar einen Stapel. Umso wichtiger ist es, keine zusätzlichen durch vermeidbare Mechaniken zu sammeln."
+    },
+    {
+      "category": "Eternal Venom",
+      "question": "Was ist die einzige Möglichkeit im Kampf, einen Stapel Eternal Venom zu entfernen?",
+      "options": [
+        "Durch Vile Flood hindurchlaufen",
+        "Einen Caustic Globule soaken",
+        "Bei Ravenous Feast einen der drei Treffer soaken",
+        "Coiling Ichor am Rand ablegen"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Ravenous Feast ist die einzige Venom-Rückerstattung des Encounters."
+    },
+    {
+      "category": "Grundprinzip",
+      "question": "Warum müssen Vexhul und Ithraz ungefähr gleichzeitig sterben?",
+      "options": [
+        "Der überlebende Boss erhält Uncoiled Wrath und alle 4 Sekunden 25 % mehr Schaden",
+        "Der tote Boss explodiert nach 10 Sekunden und belebt sich wieder",
+        "Der überlebende Boss wird sofort unangreifbar",
+        "Der überlebende Boss heilt den toten Boss wieder vollständig"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Uncoiled Wrath stapelt unbegrenzt. Ein kleiner Kill-Abstand ist überlebbar, ein großer wird sehr schnell unkontrollierbar."
+    },
+    {
+      "category": "Grundprinzip",
+      "question": "Welche Positionierungsbesonderheit gilt für die Twin Fangs?",
+      "options": [
+        "Nur Vexhul kann bewegt werden",
+        "Beide Bosse müssen permanent zusammengezogen werden",
+        "Die Bosse können nicht bewegt werden, daher spielt der Raid um ihre festen Positionen herum",
+        "Nur Ithraz kann bewegt werden"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Die beiden Schlangen sind stationär. Der Encounter verlangt daher Bewegung und Raumaufteilung vom Raid statt klassisches Boss-Repositionieren."
+    },
+    {
+      "category": "Grundprinzip",
+      "question": "Was passiert, wenn der jeweilige Tank den Boss aus seiner Angriffsreichweite verlässt?",
+      "options": [
+        "Der gesamte Raid erhält automatisch einen Eternal-Venom-Stapel",
+        "Vexhul beziehungsweise Ithraz benutzen ihre Range-Checks Concentrated Spittle oder Clotted Bolt",
+        "Der Boss verliert Energie",
+        "Der Boss teleportiert sich zum Tank"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Beide Bosse besitzen einen Range-Check. Solange sie sauber getankt werden, sollte diese Mechanik gar nicht sichtbar werden."
+    },
+    {
+      "category": "Vexhul",
+      "question": "Wie funktioniert Caustic Deluge als Tankmechanik?",
+      "options": [
+        "Vexhuls aktueller Tank erhält einen lang anhaltenden Debuff, der weiteren Deluge-Schaden pro Stapel um 10 % erhöht",
+        "Caustic Deluge betrifft ausschließlich den Raid und nicht den Tank",
+        "Der Tank verliert pro Stapel 10 % Bewegungsgeschwindigkeit",
+        "Der Tank erhält pro Stapel 10 % mehr Heilung"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Envenomed hält 90 Sekunden und zwingt die Tanks dazu, im Verlauf die Schlangen miteinander zu tauschen."
+    },
+    {
+      "category": "Vexhul",
+      "question": "Warum sollte der Raid während Caustic Deluge Abstand vom aktuellen Tank halten?",
+      "options": [
+        "Der Tank explodiert am Ende des Channels raidweit",
+        "Vexhul cleavt automatisch jeden Spieler hinter dem Tank",
+        "Alle Spieler in Tanknähe erhalten den Envenomed-Tankdebuff",
+        "Die Säurespritzer treffen Spieler im Umkreis, geben Eternal Venom und erzeugen Caustic Globules"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Die Deluge-Splashes sind vermeidbare Venom-Quellen. Der Tankbereich sollte deshalb frei bleiben."
+    },
+    {
+      "category": "Caustic Globules",
+      "question": "Wie wird ein Caustic Globule korrekt behandelt?",
+      "options": [
+        "Mindestens fünf Spieler müssen gemeinsam hinein",
+        "Nur ein Tank darf ihn aufnehmen",
+        "Er wird komplett ignoriert",
+        "Ein einzelner Spieler mit möglichst niedrigen Venom-Stapeln soak't ihn"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Ein Soaker bezahlt genau einen Venom-Stapel und schützt dafür den gesamten Raid."
+    },
+    {
+      "category": "Caustic Globules",
+      "question": "Was passiert, wenn ein Caustic Globule 10 Sekunden lang nicht gesoakt wird?",
+      "options": [
+        "Er wird zu einem Spawn of Vexhul",
+        "Er verschwindet folgenlos",
+        "Er heilt Vexhul",
+        "Er rupturiert und gibt dem gesamten Raid einen Eternal-Venom-Stapel"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Ein verpasster Globule tauscht einen einzelnen geplanten Stapel gegen einen Stapel auf jedem Spieler. Ein bemerkenswert schlechter Deal."
+    },
+    {
+      "category": "Venomous Emergence",
+      "question": "Was bewirkt Venomous Emergence?",
+      "options": [
+        "Der gesamte Raid erhält unvermeidbar einen Eternal-Venom-Stapel und drei Spawns of Vexhul erscheinen",
+        "Alle vorhandenen Venom-Stapel werden verdoppelt",
+        "Nur die Tanks erhalten Eternal Venom und zwei Adds erscheinen",
+        "Drei Caustic Globules verschwinden automatisch"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Dieser Stapel ist Teil des unvermeidbaren Venom-Budgets des Kampfes."
+    },
+    {
+      "category": "Venomous Emergence",
+      "question": "Wie spielt man die Corrosive-Spit-Linien der Spawns of Vexhul?",
+      "options": [
+        "Der gesamte Raid stackt in jeder Linie",
+        "Die Linien müssen Caustic Globules treffen",
+        "Nur Tanks können von Corrosive Spit getroffen werden",
+        "Das Ziel richtet die Linie vom Raid weg, alle anderen weichen ihr aus und die Adds werden schnell getötet"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Jeder zusätzliche Treffer durch Corrosive Spit verursacht Schaden und einen vermeidbaren Venom-Stapel."
+    },
+    {
+      "category": "Ithraz",
+      "question": "Wie wird Coiling Ichor abgelegt?",
+      "options": [
+        "Betroffene Spieler gehen auseinander und legen die entstehende Pfütze möglichst am Rand ab",
+        "Alle Betroffenen stacken unter dem Boss",
+        "Die Mechanik wird gemeinsam in Ravenous Feast gesoakt",
+        "Die Kreise werden im Zentrum überlappt"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Nach Ablauf bleibt zwei Minuten lang Congealed Gore zurück, das Spieler darin um 50 % verlangsamt. Saubere Randplatzierung erhält Spielfläche."
+    },
+    {
+      "category": "Ithraz",
+      "question": "Warum sollten sich Spieler mit Coiling Ichor auf dem Weg nach außen nicht gegenseitig überlappen?",
+      "options": [
+        "Überlappung entfernt den Debuff zu früh",
+        "Ihre Kreise verursachen Schaden an anderen Spielern innerhalb der Fläche",
+        "Die Kreise verbinden sich sonst dauerhaft miteinander",
+        "Überlappung setzt Mor'zahi-Energie frei"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Die Kreise ticken bereits vor dem Ablauf. Einfach auseinanderziehen und sauber ablegen."
+    },
+    {
+      "category": "Stir the Depths",
+      "question": "Welche Teile von Stir the Depths geben Eternal Venom?",
+      "options": [
+        "Die grünen Wellen; der reine raidweite Grundschaden gibt keinen Stapel",
+        "Nur der raidweite Grundschaden",
+        "Keiner der beiden Teile",
+        "Sowohl Grundschaden als auch jede Welle immer"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Der Raid-Schaden selbst ist unvermeidbarer Heilerdruck. Die Wellen sind dagegen vermeidbar und geben bei Treffer zusätzliche Venom-Stapel."
+    },
+    {
+      "category": "Stone Breaker",
+      "question": "Was ist die Aufgabe des Tanks bei Stone Breaker?",
+      "options": [
+        "Die Swirlies vom gesamten Raid gemeinsam soaken lassen",
+        "Alle drei Swirlies absichtlich leer lassen",
+        "Nach dem Knockback wieder hineinlaufen und die drei aufeinanderfolgenden weißen Swirlies soaken",
+        "Während Stone Breaker zu Vexhul wechseln und nichts soaken"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Jeder Slam muss mindestens einen Spieler treffen. Praktisch übernimmt das der zuständige Tank."
+    },
+    {
+      "category": "Stone Breaker",
+      "question": "Was passiert, wenn ein Stone-Breaker-Slam niemanden trifft?",
+      "options": [
+        "Ithraz verliert einen Energiepunkt",
+        "Der gesamte Raid erhält schweren, rüstungsignorierenden Schaden und einen Knockback",
+        "Der Slam fällt einfach aus",
+        "Nur Ithraz' Tank bekommt doppelten Schaden"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ein leerer Stone Breaker bestraft den kompletten Raid und ist deshalb kein akzeptabler Miss."
+    },
+    {
+      "category": "Stone Breaker",
+      "question": "Warum wechseln die Tanks sich bei den Stone-Breaker-Sets ab?",
+      "options": [
+        "Stone Breaker kann pro Tank nur einmal im Kampf gesoakt werden",
+        "Jeder Soak reduziert erhaltene Heilung um 50 %",
+        "Der Tank wird nach drei Soaks automatisch betäubt",
+        "Jeder Soak stapelt 33 % erhöhten Stone-Breaker-Schaden für 90 Sekunden"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Der lange 90-Sekunden-Debuff macht alternierende Sets deutlich sicherer."
+    },
+    {
+      "category": "Tank-Koordination",
+      "question": "Warum tauschen die Tanks im Verlauf die beiden Schlangen miteinander statt nur sofort zurückzutaunten?",
+      "options": [
+        "Weil nur der Vexhul-Tank Ravenous Feast soaken darf",
+        "Sowohl Envenomed als auch der Stone-Breaker-Debuff halten 90 Sekunden und müssen auslaufen können",
+        "Weil die Bosse nach jedem Tanktaunt ihre Position tauschen",
+        "Weil ein Tank nie beide Bosse im selben Pull angreifen darf"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Beide Tankmechaniken besitzen lange Stapeldebuffs. Der Boss-Tausch ist die saubere Lösung, um diese Belastung zu rotieren."
+    },
+    {
+      "category": "Ravenous Feast",
+      "question": "Wie funktioniert Ravenous Feast grundsätzlich?",
+      "options": [
+        "Es entstehen drei Pfützen, die niemand betreten darf",
+        "Der gesamte Raid erhält drei unvermeidbare Einzelzieltreffer",
+        "Ithraz schlägt dreimal schnell hintereinander in einen großen Soak-Kreis und teilt den Schaden zwischen den Spielern darin",
+        "Ithraz markiert einen Spieler und frisst ihn dauerhaft"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Ravenous Feast besteht aus drei schnellen Gruppen-Soaks."
+    },
+    {
+      "category": "Ravenous Feast",
+      "question": "Welchen positiven Effekt hat ein erfolgreicher Ravenous-Feast-Soak?",
+      "options": [
+        "Der Spieler erhält dauerhaft 10 % mehr Schaden",
+        "Jeder getroffene Spieler verliert einen Stapel Eternal Venom",
+        "Alle Venom-Stapel des Spielers werden entfernt",
+        "Ithraz verliert 10 Energie"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Pro Feast kann jeder Spieler genau einen Venom-Stapel loswerden."
+    },
+    {
+      "category": "Ravenous Feast",
+      "question": "Warum darf dieselbe Gruppe nicht zwei Ravenous-Feast-Treffer hintereinander soaken?",
+      "options": [
+        "Der Spieler wird nach einem Soak 30 Sekunden bewegungsunfähig",
+        "Feasted erhöht den Schaden weiterer Feast-Treffer für 8 Sekunden um 800 %",
+        "Der zweite Soak würde alle Venom-Stapel zurückgeben",
+        "Ithraz akzeptiert technisch keine Spieler, die schon einmal im Kreis standen"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Der zweite Treffer auf dieselbe Gruppe wäre praktisch tödlich."
+    },
+    {
+      "category": "Ravenous Feast",
+      "question": "Wie viele Eternal-Venom-Stapel kann ein einzelner Spieler während eines Ravenous Feast maximal entfernen?",
+      "options": [
+        "Genau zwei",
+        "Alle aktuellen Stapel",
+        "Bis zu drei, einen pro Treffer",
+        "Genau einen, unabhängig davon, wie viele der drei Treffer er mitnehmen würde"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Mehrfaches Greeden bringt keinen zusätzlichen Venom-Refund, nur einen grotesk höheren Schaden."
+    },
+    {
+      "category": "Ravenous Feast",
+      "question": "Welche Gruppenaufteilung empfiehlt Method für Ravenous Feast?",
+      "options": [
+        "Nur die beiden Tanks wechseln sich ab",
+        "Eine einzige Gruppe soak't alle drei Treffer",
+        "Vier Gruppen mit jeweils genau 5 Spielern",
+        "Drei Gruppen mit jeweils mindestens 7 Spielern, alternativ zwei Gruppen plus Immunities für den dritten Treffer"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Method nennt drei Gruppen mit 7+ Spielern als Standard. Alternativ können Immunities einen dritten separaten Soak ermöglichen."
+    },
+    {
+      "category": "Intermission",
+      "question": "Wann beginnt die normale Submerge-Intermission?",
+      "options": [
+        "Direkt nach jedem Ravenous Feast",
+        "Nach dem ersten Venomous Emergence",
+        "Bei 50 % Bossleben",
+        "Bei 100 Energie, nach dem zweiten Ravenous Feast des Zyklus"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Die normale Ability-Rotation läuft zweimal pro Zyklus. Nach dem zweiten Feast folgt Submerge."
+    },
+    {
+      "category": "Intermission",
+      "question": "Was hinterlässt der eigentliche Submerge zusätzlich auf der Plattform?",
+      "options": [
+        "Permanente Immunitätsflächen",
+        "Noxious Slicks, die Schaden verursachen und den erlittenen Schaden um 30 % erhöhen",
+        "Caustic Globules, die Venom entfernen",
+        "Heilende Zonen"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Die Arena wird mit jeder Intermission unfreundlicher, weil neue Noxious Slicks entstehen."
+    },
+    {
+      "category": "Intermission",
+      "question": "Wie erkennt man bei Vile Flood, in welche Richtung sich der Laser bewegen wird?",
+      "options": [
+        "An Ithraz' Blickrichtung",
+        "An der Position der ältesten Noxious Slicks",
+        "An der Rotationsrichtung der schwebenden Orbs um Vexhul",
+        "Die Richtung ist nicht vorher erkennbar"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Die Orbs telegraphieren die Drehrichtung vor dem Sweep."
+    },
+    {
+      "category": "Intermission",
+      "question": "Wie spielt man Vile Flood am sichersten?",
+      "options": [
+        "In einer Noxious Slick stehen, bis der Laser vorbei ist",
+        "Mit dem Laser mitlaufen und möglichst lange vor ihm bleiben",
+        "Den Laser gemeinsam soaken",
+        "Gegen die Rotationsrichtung laufen und den Laser früh kreuzen, weil der Bereich hinter ihm danach sicher ist"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Vile Flood dreht keine volle Runde. Früh kreuzen bedeutet, dass der bereits passierte Bereich sicher bleibt."
+    },
+    {
+      "category": "Intermission",
+      "question": "Warum ist ein Treffer durch Vile Flood besonders gefährlich?",
+      "options": [
+        "Er entfernt alle Venom-Stapel und betäubt den Spieler",
+        "Er aktiviert sofort den Hard Enrage",
+        "Der Laser verursacht massiven Tickschaden und stapelt Eternal Venom sehr schnell",
+        "Er teleportiert den Spieler direkt zu Ithraz"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Im Beam zu stehen führt sehr schnell zu mehreren Stapeln und damit häufig direkt zum Tod."
+    },
+    {
+      "category": "Intermission",
+      "question": "Was passiert parallel zu Vile Flood?",
+      "options": [
+        "Alle Caustic Globules explodieren",
+        "Die drei Spawns of Vexhul erscheinen erneut",
+        "Ravenous Feast wird dreimal gleichzeitig gewirkt",
+        "Sanguine Storm lässt rote Einschläge und kurzlebige Congealed-Gore-Pfützen auf der Plattform entstehen"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Während der Laser rotiert, muss der Raid zusätzlich den roten Einschlägen ausweichen."
+    },
+    {
+      "category": "Enrage",
+      "question": "Was ist der Soft Enrage des Kampfes?",
+      "options": [
+        "Ravenous Feast verliert pro Zyklus einen Soak",
+        "Die durchschnittlichen Eternal-Venom-Stapel des Raids steigen von Zyklus zu Zyklus immer weiter an",
+        "Beide Bosse erhalten jede Minute automatisch 20 % Haste",
+        "Jede Intermission halbiert dauerhaft die Heilung"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Unvermeidbare Venom-Anwendungen sammeln sich schneller an, als sie vollständig entfernt werden können. Der Fehlerspielraum schrumpft."
+    },
+    {
+      "category": "Enrage",
+      "question": "Was passiert beim dritten Erreichen von 100 Energie?",
+      "options": [
+        "Beide Bosse verlieren ihre verbleibenden Venom-Fähigkeiten",
+        "Die Bosse gehen in den Hard Enrage und Caustic Rain beendet den Pull sehr schnell",
+        "Ravenous Feast entfernt ab dann zwei Stapel pro Spieler",
+        "Eine normale dritte Submerge-Intermission beginnt"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Beide Twin Fangs müssen vor dem dritten Submerge-Zeitpunkt sterben."
+    },
+    {
+      "category": "Strategie",
+      "question": "Wann empfiehlt Method Heroism/Bloodlust?",
+      "options": [
+        "Nach dem zweiten Ravenous Feast",
+        "Während der ersten Submerge-Intermission",
+        "Direkt auf Pull",
+        "Erst wenn einer der beiden Bosse stirbt"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Method empfiehlt Hero/Lust auf Pull. Der Kampf belohnt konstanten Zwei-Ziel-Schaden von Beginn an."
+    }
+  ]
+}
