@@ -1,0 +1,337 @@
+{
+  "schemaVersion": 3,
+  "branding": {
+    "guildName": "Well Played",
+    "appTitle": "Well Played Raid-Quiz",
+    "appSubtitle": "Gildenquiz für Raidguides",
+    "headerLogoText": "WP",
+    "bannerTitle": "Well Played",
+    "bannerSubtitle": "Guild Quiz",
+    "bannerGuideFallback": "Wähle einen Raidguide aus",
+    "accentColor": "#d6a24a",
+    "accentColor2": "#36b5ff",
+    "accentColor3": "#7b4dff"
+  },
+  "quiz": {
+    "guideName": "The Venomous Abyss – Heroic The Lost Explorers Guide",
+    "pageTitle": "Heroic The Lost Explorers Quiz",
+    "headerTitle": "The Venomous Abyss – Heroic The Lost Explorers",
+    "headerSubtitle": "Interaktives Mechanik-Quiz",
+    "startTitle": "Hast du die Lost Explorers verstanden?",
+    "description": "26 Fragen zu United Defense, Mor’zahi, Gebbos Kisten, Nama, Iku, den drei Ultimates und den Death-Enrages."
+  },
+  "questions": [
+    {
+      "category": "Grundprinzip",
+      "question": "Was passiert, wenn alle drei Explorers innerhalb von 30 Metern zusammenstehen?",
+      "options": [
+        "Alle drei erhalten 99 % Schadensreduktion durch United Defense",
+        "Nur Gebbo wird immun",
+        "Mor’zahi verliert sofort seine gesamte Energie",
+        "Alle drei erhalten 50 % mehr Schaden"
+      ],
+      "correctAnswer": 0,
+      "explanation": "United Defense gibt allen drei Explorers 99 % Schadensreduktion, wenn sie innerhalb von 30 Metern zusammenstehen. Zwei können also in Cleave-Reichweite sein, aber niemals alle drei."
+    },
+    {
+      "category": "Grundprinzip",
+      "question": "Warum sollte man die Lebenspunkte von Nama, Iku und Gebbo während des Kampfes möglichst ähnlich halten?",
+      "options": [
+        "Weil jeder Explorer beim Tod eines Verbündeten einen eigenen Enrage auslöst",
+        "Weil sonst United Defense permanent aktiv bleibt",
+        "Weil Mor’zahi immer den Boss mit den höchsten HP heilt",
+        "Weil nur der Explorer mit den niedrigsten HP angreifbar bleibt"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Alle drei besitzen einen Death-Enrage. Ein einzelner früher Kill kann den Kampf sehr schnell eskalieren, daher sollten ihre HP bis zum Ende möglichst ausgeglichen bleiben."
+    },
+    {
+      "category": "Mor’zahi",
+      "question": "Was passiert, wenn Mor’zahi 100 Energie erreicht und Final Ascension nicht verhindert wird?",
+      "options": [
+        "Er startet eine praktisch tödliche Raid-Damage-Sequenz",
+        "Er heilt alle drei Explorers vollständig",
+        "Er setzt United Defense dauerhaft außer Kraft",
+        "Er teleportiert alle Spieler aus der Arena"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Final Ascension verursacht fortlaufend massiven Raid-Schaden. Das ist effektiv ein Wipe und muss durch den Disgusting Fish verhindert werden."
+    },
+    {
+      "category": "Mor’zahi",
+      "question": "Wie wird Final Ascension verhindert und Mor’zahis Energie zurückgesetzt?",
+      "options": [
+        "Ein Disgusting Fish wird einem Explorer zugeworfen",
+        "Mor’zahi wird normal unterbrochen",
+        "Alle drei Tankskills werden gleichzeitig ausgelöst",
+        "Eine Gebbo-Kiste wird ungeöffnet stehen gelassen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Der Disgusting Fish aus Gebbos Kisten wird einem Explorer gegeben. Dadurch wird Mor’zahis Konzentration gebrochen, seine Energie zurückgesetzt und der gefütterte Explorer empowered."
+    },
+    {
+      "category": "Mor’zahi",
+      "question": "Was ist der Preis dafür, Mor’zahi mit einem Fisch zurückzusetzen?",
+      "options": [
+        "Fishy Feedback verursacht Raid-Schaden und einen DoT",
+        "Der gefütterte Explorer wird dauerhaft immun",
+        "Mor’zahi erhält sofort 50 neue Energie",
+        "Alle Kisten verschwinden"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Jeder Fish-Reset löst Fishy Feedback aus: Raid-Schaden plus einen 12-sekündigen DoT. Der Reset sollte daher nicht unnötig mit anderen großen Raid-Hits überlappen."
+    },
+    {
+      "category": "Mor’zahi",
+      "question": "Wie viele Fish-Resets stehen insgesamt zur Verfügung, bevor der Hard Enrage kommt?",
+      "options": [
+        "Genau drei; beim vierten Erreichen von 100 Energie gibt es keinen Fisch mehr",
+        "Genau zwei",
+        "Unbegrenzt, solange Kisten geöffnet werden",
+        "Vier; erst beim fünften Mal ist Schluss"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Es gibt drei Fish-Feeds. Das vierte Mal, dass Mor’zahi 100 Energie erreicht, kann nicht mehr gestoppt werden und ist damit der natürliche Hard Enrage."
+    },
+    {
+      "category": "Gebbo – Kisten",
+      "question": "Warum müssen Gebbos Kisten aktiv geöffnet werden?",
+      "options": [
+        "Sie können den Disgusting Fish enthalten und lösen nach 25 Sekunden sonst Relic Rupture aus",
+        "Sie erhöhen sonst United Defense",
+        "Sie blockieren sonst alle Unterbrechungen",
+        "Sie heilen Gebbo jede Sekunde"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Die Kisten sind gleichzeitig Fischquelle und Zeitbombe. Bleibt eine 25 Sekunden unangetastet, verursacht Relic Rupture schweren raidweiten Schaden."
+    },
+    {
+      "category": "Gebbo – Kisten",
+      "question": "Was passiert mit Spielern, die eine Gebbo-Kiste öffnen?",
+      "options": [
+        "Sie erhalten den stapelnden Splinters-Bleed für 8 Sekunden",
+        "Sie werden 30 Sekunden betäubt",
+        "Sie erhalten automatisch den Disgusting Fish",
+        "Sie lösen sofort Final Ascension aus"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Das Öffnen einer Kiste verursacht Splinters, einen stapelnden 8-Sekunden-Bleed. Deshalb sollte die Cleanup-Arbeit verteilt und idealerweise von Spielern mit physischer Resistenz oder Bleed-Removal übernommen werden."
+    },
+    {
+      "category": "Nama",
+      "question": "Wie wird Namas Shell Spin gespielt?",
+      "options": [
+        "Den drei frontal geschossenen Shells ausweichen, da sie 4 Sekunden betäuben",
+        "Die Shells gemeinsam soaken",
+        "Direkt vor Nama stehen, damit sie nicht zurückfliegen",
+        "Nur Tanks können von den Shells getroffen werden"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Nama schießt drei Shells in einem Frontalkegel. Wer getroffen wird, erleidet Schaden und wird 4 Sekunden gestunnt."
+    },
+    {
+      "category": "Nama",
+      "question": "Was macht Steady Strikes für den Nama-Tank relevant?",
+      "options": [
+        "Jeder Nahkampftreffer erhöht den erlittenen physischen Schaden um 4 %, weshalb Tanks wechseln müssen",
+        "Nama reduziert mit jedem Treffer seine eigene Angriffsgeschwindigkeit",
+        "Der Tank verliert pro Treffer 4 % Bewegungsgeschwindigkeit",
+        "Der Debuff kann von Heilern dispellt werden"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Steady Strikes stapelt 4 % erhöhten physischen Schaden pro Nahkampftreffer auf dem aktuellen Tank. Sobald das zu stark wird, wird mit dem Iku-Tank gewechselt."
+    },
+    {
+      "category": "Iku",
+      "question": "Wie wird Blink Nova korrekt gespielt?",
+      "options": [
+        "Der Zielspieler bewegt sich mindestens etwa 30 Meter vom Raid weg",
+        "Alle Spieler stacken auf dem Ziel",
+        "Der Cast muss zwingend unterbrochen werden",
+        "Der Zielspieler läuft zu Nama"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Iku teleportiert auf einen zufälligen Spieler. Der Raid-Schaden nimmt mit Entfernung zum Ziel ab, daher läuft der Zielspieler weit aus der Gruppe."
+    },
+    {
+      "category": "Iku",
+      "question": "Was ist bei Icebound Flames die bevorzugte Reaktion?",
+      "options": [
+        "Den Cast unterbrechen; falls er durchkommt, den verbleibenden DoT dispellen",
+        "Alle Spieler in den Cast hineinlaufen lassen",
+        "Den Cast absichtlich durchlassen, damit Iku Energie verliert",
+        "Nur der Tank darf unterbrechen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Icebound Flames ist unterbrechbar. Kommt der Cast durch, verursacht er Schaden, Slow und einen dispelbaren DoT."
+    },
+    {
+      "category": "Iku",
+      "question": "Warum muss auf Shredding Shards ein Tankwechsel stattfinden?",
+      "options": [
+        "Jeder Stapel erhöht den Schaden weiterer Shredding Shards um 50 % für lange Zeit",
+        "Jeder Stapel reduziert die Bewegungsgeschwindigkeit permanent",
+        "Der Debuff erhöht ausschließlich magischen Schaden",
+        "Iku wird sonst immun gegen Schaden"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Shredding Shards stapelt 50 % erhöhten Schaden durch weitere Shredding Shards. Der Tank-Debuff hält lange an und erfordert deshalb einen Swap."
+    },
+    {
+      "category": "Nama – Ultimate",
+      "question": "Wie funktioniert Mighty Thud?",
+      "options": [
+        "Drei Spieler werden markiert und Nama springt sie der Entfernung nach an, den nächsten zuerst",
+        "Nama springt dreimal zufällig in die Mitte",
+        "Nur Tanks werden markiert",
+        "Alle drei Explorers springen gleichzeitig"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mighty Thud markiert drei Spieler. Nama springt sie nacheinander an, sortiert nach Entfernung, wobei das nächste Ziel zuerst kommt."
+    },
+    {
+      "category": "Nama – Ultimate",
+      "question": "Wie sollte der Raid Mighty Thud am sichersten spielen?",
+      "options": [
+        "Drei Soak-Gruppen bilden und nach jedem Einschlag aus der Aftershock-Fläche herausgehen",
+        "Alle drei Markierungen leer lassen",
+        "Eine einzige Gruppe soak't alle drei Sprünge direkt hintereinander",
+        "Die markierten Spieler laufen allein aus dem Raid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Jeder Treffer teilt seinen Schaden auf Spieler im 6-Meter-Bereich auf. Drei getrennte Soak-Gruppen sind wegen Knockback und schneller Folge am sichersten. Die Aftershock-Zonen bleiben 30 Sekunden gefährlich."
+    },
+    {
+      "category": "Iku – Ultimate",
+      "question": "Wie entfernt man den Debuff von Frostfire Volley?",
+      "options": [
+        "Mit einem Feuer-Debuff in eine Frost Patch beziehungsweise mit Frost-Debuff in eine Fire Patch laufen",
+        "Immer in die Pfütze des gleichen Elements laufen",
+        "Nur über einen Heiler-Dispel",
+        "Der Debuff kann nicht entfernt werden"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Die Elemente löschen sich gegenseitig: Feuer wird in Frost entfernt, Frost in Feuer."
+    },
+    {
+      "category": "Iku – Ultimate",
+      "question": "Warum muss der Frostfire-Volley-Debuff vor dem nächsten Set entfernt werden?",
+      "options": [
+        "Trifft das gegenteilige Element einen Spieler mit altem Debuff, kann Elemental Explosion den Raid wipen",
+        "Der Spieler wird sonst sofort von Iku übernommen",
+        "Der Debuff erhöht United Defense",
+        "Die Pfützen verschwinden sonst nicht"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ein Treffer mit dem gegenteiligen Element bei noch aktivem Debuff löst Elemental Explosion aus. Das ist sehr wahrscheinlich ein Wipe."
+    },
+    {
+      "category": "Gebbo – Ultimate",
+      "question": "Wo sollte Explosive Surprise möglichst abgelegt werden?",
+      "options": [
+        "Am Rand der Arena",
+        "Direkt in der Mitte",
+        "Unter Iku",
+        "Auf einer ungeöffneten Kiste"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Die Bombe hinterlässt eine große schrumpfende Gefahrenfläche. Deshalb wird sie idealerweise am Rand abgelegt."
+    },
+    {
+      "category": "Gebbo – Ultimate",
+      "question": "Wie überlebt man die Blast Wave von Explosive Surprise?",
+      "options": [
+        "Mit dem Bouncy Mushroom über die Welle springen oder geeignete Blinks/Teleports/Leaps nutzen",
+        "In der Mitte stacken und die Welle soaken",
+        "Hinter Nama stehen",
+        "Eine Gebbo-Kiste öffnen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Die Blast Wave ist extrem gefährlich. Der vorgesehene Counter ist der Bouncy Mushroom, alternativ funktionieren passende Mobilitätsfähigkeiten."
+    },
+    {
+      "category": "Gebbo – Ultimate",
+      "question": "Warum sollte man den Bouncy Mushroom nicht zu früh berühren?",
+      "options": [
+        "Berührung löst ihn aus und er verschwindet kurz darauf, daher muss das Timing zur Blast Wave passen",
+        "Er verursacht sonst sofort Final Ascension",
+        "Er wird sonst zu einer Kiste",
+        "Nur der Bombenträger darf ihn benutzen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sobald jemand den Mushroom berührt, wird er ausgelöst und despawnt kurz darauf. Man wartet deshalb, bis die Blast Wave wirklich herankommt."
+    },
+    {
+      "category": "Feed-Reihenfolge",
+      "question": "Welche Feed-Reihenfolge empfiehlt Method als Ausgangspunkt?",
+      "options": [
+        "Iku → Nama → Gebbo",
+        "Gebbo → Nama → Iku",
+        "Nama → Gebbo → Iku",
+        "Immer denselben Explorer dreimal"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Method empfiehlt Iku, dann Nama, dann Gebbo. Die Reihenfolge ist aber eine Präferenz und kann an den eigenen Raid angepasst werden."
+    },
+    {
+      "category": "Death Enrages",
+      "question": "Was macht Iku, wenn ein anderer Explorer stirbt?",
+      "options": [
+        "Sie wirkt wiederholt Cataclysmic Invocation, deren massiver Raid-Schaden mit jedem Cast steigt",
+        "Sie beginnt Spieler mit einer Schaufel herumzuschlagen",
+        "Sie erhält nur 10 % Bewegungsgeschwindigkeit",
+        "Sie verliert alle Fähigkeiten"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cataclysmic Invocation ist der gefährlichste der drei Death-Enrages, weil der Raid-Schaden mit jedem weiteren Cast wächst."
+    },
+    {
+      "category": "Death Enrages",
+      "question": "Was macht Nama, wenn ein anderer Explorer stirbt?",
+      "options": [
+        "Relentless Escalation erhöht seinen Schaden jede Sekunde um 100 % für 30 Sekunden",
+        "Er verliert seinen Tank-Debuff",
+        "Er wird für 30 Sekunden bewegungsunfähig",
+        "Er beschwört zusätzliche Kisten"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Nama ramped durch Relentless Escalation extrem schnell hoch und beginnt nach kurzer Zeit Spieler praktisch zu one-shotten."
+    },
+    {
+      "category": "Death Enrages",
+      "question": "Was macht Gebbo, wenn ein anderer Explorer stirbt?",
+      "options": [
+        "Er nutzt Smashing Shovel für zusätzlichen physischen Schaden und Knockbacks",
+        "Er löst Elemental Explosion aus",
+        "Er wird vollständig immun",
+        "Er setzt Mor’zahis Energie auf 100"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Gebbo schnappt sich seine Schaufel und beginnt mit Smashing Shovel zusätzlichen Schaden und Knockbacks zu verursachen."
+    },
+    {
+      "category": "Kill Order",
+      "question": "Falls die drei Explorers nicht gleichzeitig sterben können: Welche Reihenfolge empfiehlt Method?",
+      "options": [
+        "Gebbo zuerst, Nama danach, Iku zuletzt",
+        "Iku zuerst, Nama danach, Gebbo zuletzt",
+        "Nama zuerst, Iku danach, Gebbo zuletzt",
+        "Die Reihenfolge spielt keine Rolle"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Gebbos Death-Enrage ist am ehesten überlebbar. Nama sollte danach sterben, und Iku zuletzt, weil ihre wiederholte Raid-Explosion am gefährlichsten ist."
+    },
+    {
+      "category": "Strategie",
+      "question": "Wann empfiehlt Method Heroism/Bloodlust bei The Lost Explorers?",
+      "options": [
+        "Direkt auf Pull",
+        "Beim ersten Fish-Feed",
+        "Beim dritten Fish-Feed",
+        "Erst nachdem der erste Explorer stirbt"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Method empfiehlt Hero/Lust direkt auf Pull. Der Kampf ist ein Council-DPS-Check mit einem klaren Hard-Enrage über Mor’zahis Energie."
+    }
+  ]
+}
