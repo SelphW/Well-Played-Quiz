@@ -3,6 +3,18 @@
     {
       "name": "The Venomous Abyss – Heroic Nek’zali",
       "file": "Well_Played_Heroic_Nekzali_the_Soulcoiler.json"
+    },
+    {
+      "name": "The Venomous Abyss – Heroic Entombed Sentinels",
+      "file": "Well_Played_Heroic_Entombed_Sentinels.json"
+    },
+    {
+      "name": "The Venomous Abyss – Heroic The Lost Explorers",
+      "file": "Well_Played_Heroic_The_Lost_Explorers.json"
+    },
+    {
+      "name": "The Venomous Abyss – Heroic Vashnik the Malignant",
+      "file": "Well_Played_Heroic_Vashnik_the_Malignant.json"
     }
   ]
 }
